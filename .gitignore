@@ -23,5 +23,6 @@
 /front-end/*.sln
 /front-end/*.sw?
 
+/backend/raw/
 
 .env
