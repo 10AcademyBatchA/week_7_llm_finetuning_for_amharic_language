@@ -12,7 +12,7 @@ load_dotenv()
 
 
 def load_data():
-    loader = TextLoader("/week_6_challenge_doc.txt")
+    loader = TextLoader("../app/utils/week_6_challenge_doc.txt", encoding="UTF-8")
     documents = loader.load()
     return documents
 
