@@ -1,5 +1,8 @@
 import json
 import re
+import demoji
+
+# demoji.download_codes()
 
 
 class Util():
@@ -84,10 +87,19 @@ class Util():
 
     def extract_emojis(self, text):
         return ''.join(self.emoji_pattern.findall(text))
+    
+    def remove_emojis_using_emoji_pattern(self, text):
+        return self.emoji_pattern.sub(' ', text)
 
     def remove_emojis(self, text):
-        return self.emoji_pattern.sub(' ', text)
+        # return self.emoji_pattern.sub(' ', text)
         #return re.sub(self.emoji_pattern, '', text)
+        # dem = demoji.findall(text)
+        # for item in dem.keys():
+        #     text = text.replace(item, '')
+        # return text
+        return demoji.replace(text, '')
+
 
     def extract_symbols(self, text):
         return ''.join(self.symbols.findall(text))
@@ -100,3 +112,16 @@ class Util():
 
     def extract_mentions(self, text):
         return re.findall(self.mention_pattern, text)
+
+
+
+# def remove_em(text):
+    
+
+# text = "||ጉድ ነው! የቀድሞ የብራዚል አጥቂ ኤደልሰን ከሮናልዶ ሜሲ እና ኔይማር የተሻለው ተጫዋች እንደሆነ ያስባል። ሮናልዶ ⏰"
+
+# #def extract_emojis(text):
+# #    return [c for c in text if c in emoji.UNICODE_EMOJI]
+
+# print(remove_em(text))
+
