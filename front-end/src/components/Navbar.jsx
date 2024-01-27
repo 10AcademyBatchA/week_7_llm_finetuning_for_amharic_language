@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function NavBarComp() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary container-fluid">
-      <Container fluid>
+      <Container >
         <Navbar.Brand href="#home">Text Generation for Amharic Language</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

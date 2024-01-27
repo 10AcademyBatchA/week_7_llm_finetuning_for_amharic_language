@@ -21,14 +21,14 @@ function App() {
   const ref = useRef(null);
 
   return (
-    <div className='container-fluid'>
+    <div className='container'>
       
       <NavBarComp />
 
       <form class="row g-3" >
          
           <div>
-            <label htmlFor="inputLable" className="form-label">Input Question to be answered</label>
+            <label htmlFor="inputLable" className="form-label">Input Ad description to be generated</label>
             <textarea className="form-control" id="inputTextarea" rows="7" w-50 ref={ref}/>
           </div>
           <div>
@@ -36,7 +36,7 @@ function App() {
           </div>
 
          
-          <button type="button" className="btn btn-primary mb-4" onClick={fetchResponse}>Get Answer</button> 
+          <button type="button" className="btn btn-primary mb-4" onClick={fetchResponse}>Get Ad</button> 
 
       </form>
     </div>
