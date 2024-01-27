@@ -1,3 +1,9 @@
+main
+.env
+/cleaned
+/amharic_tokenizer
+/amharic-llama
+
 # Logs
 /front-end/logs
 /front-end/*.log
@@ -30,3 +36,4 @@
 /backend/notebooks/*.model
 /backend/notebooks/*.vocab
 
+feature/model_exploration
