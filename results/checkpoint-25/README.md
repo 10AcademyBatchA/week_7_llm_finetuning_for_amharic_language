@@ -1,6 +1,6 @@
 ---
 library_name: peft
-base_model: meta-llama/Llama-2-7b-chat-hf
+base_model: microsoft/phi-2
 ---
 
 # Model Card for Model ID
