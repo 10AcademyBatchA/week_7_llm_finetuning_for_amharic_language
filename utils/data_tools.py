@@ -35,7 +35,7 @@ def split_data(input_csv, output_train_csv, output_test_csv, output_val_csv, tes
         csv_writer.writerows(val_data)
 
 if __name__ == "__main__":
-    input_txt_file = '/home/biniyam_ajaw/finetuning/data/file.txt'
+    input_txt_file = '/home/biniyam_ajaw/finetuning/data/dataset.txt'
     output_csv_file = '/home/biniyam_ajaw/finetuning/data/output_data.csv'
     output_train_csv = '/home/biniyam_ajaw/finetuning/data/train_data.csv'
     output_test_csv = '/home/biniyam_ajaw/finetuning/data/test_data.csv'

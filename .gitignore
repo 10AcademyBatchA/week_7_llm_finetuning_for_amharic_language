@@ -1,4 +1,6 @@
+main
 .env
 /cleaned
 /amharic_tokenizer
 /amharic-llama
+/data
