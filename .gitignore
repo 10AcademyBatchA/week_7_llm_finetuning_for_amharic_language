@@ -26,3 +26,7 @@
 /backend/raw/
 
 .env
+
+/backend/notebooks/*.model
+/backend/notebooks/*.vocab
+
