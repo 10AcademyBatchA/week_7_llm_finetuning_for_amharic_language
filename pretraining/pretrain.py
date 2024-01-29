@@ -66,4 +66,21 @@ def accuracy(predictions, references, normalize=True, sample_weight=None):
         )
     }
 
+def compute_metrics(eval_preds):
+    preds, labels = eval_preds
+    labels = labels[:, 1:].reshape(-1)
+    preds = preds[:, :-1].reshape(-1)
+    return accuracy(predictions=preds, references=labels)
+
+def preprocess_logits_for_metrics(logits, labels):
+    if isinstance(logits, tuple):
+        logits = logits[0]
+    return logits.argmax(dim=-1)
+
+def fault_tolerance_data_collator(features: List) -> Dict[str, Any]:
+    if not isinstance(features[0], Mapping):
+        features = [vars(f) for f in features]
+    first = features[0]
+    batch = {}
+
 
