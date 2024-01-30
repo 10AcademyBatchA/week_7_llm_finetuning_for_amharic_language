@@ -82,5 +82,20 @@ def fault_tolerance_data_collator(features: List) -> Dict[str, Any]:
         features = [vars(f) for f in features]
     first = features[0]
     batch = {}
+    
+    if "label" in first and first["label"] is not None:
+        label = first["label"].item() if isinstance(first["label"], torch.Tensor) else first["label"]
+        dtype = torch.long if isinstance(label, int) else torch.float
+        batch["label"] = torch.tensor([f["label"] for f in features], dtype=dtype)
+        
+    elif "label_ids" in first and first["label_ids"] is not None:
+        if isinstance(first["label_ids"], torch.Tensor):
+            batch["labels"] = torch.stack([f["label_ids"] for f in features])
+            
+        else:
+            dtype = torch.long if isinstance(first["label_ids"][0], int) else torch.float
+            batch["labels"] = torch.tensor([f["label_ids"] for f in features], dtype=dtype)
+            
+            
 
 
