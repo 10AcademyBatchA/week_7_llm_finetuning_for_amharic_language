@@ -272,9 +272,9 @@ class DataTrainingArguments:
     )
     
     keep_linebreaks: bool = field(
-        default=True, metadata=["help": "Whether to keep the linebreaks when using txt files or not"]
+        default=True, metadata={"help": "Whether to keep the linebreaks when using txt files or not"}
     )
-    data_cache_dir: Optional[str] = field(default="./", metadata={"help": The datasets processed store})
+    data_cache_dir: Optional[str] = field(default="./", metadata={"help": "The datasets processed store"})
     
     def __post_init__(self):
         if self.streaming:
@@ -296,7 +296,7 @@ logger = logging.getLogger(__name__)
 def main():
     
     parser = HfArgumentParser(ModelArguments, DataTrainingArguments, MyTrainingArguments)
-    if len(sys.argv) == 2 sys.argv[1].endswith(".json"):
+    if len(sys.argv) == 2 and sys.argv[1].endswith(".json"):
         #If we pass only one argument and it is a json file, lets get the arguments
         model_args, data_args, training_args = parser.parse_parse_json_file(json_file=os.path.abspath(sys.argv[1]))
     else:
@@ -377,4 +377,5 @@ def main():
         )
         
     # Preprocessing the datasets
+    
     
