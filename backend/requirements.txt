@@ -1,0 +1,3 @@
+fastapi
+uvicorn
+load_dotenv
