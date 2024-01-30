@@ -512,4 +512,52 @@ def main():
             model = AutoModelForCausalLM.from_config(config)
             n_params = sum({p.data_ptr(): p.numel() for p in model.parameters()}.values())
             logger.info(f"Training new model from scratch - Total size={n_params/2**20:.2f}M parameters")
+        
+        model_vocab_size = model.get_output_embeddings().weight.size(0)
+        
+        if not (
+            (model_vocab_size==32000 and len(tokenizer)==51008) or \
+            (model_vocab_size==32000 and len(tokenizer)==32000) or \
+            (model_vocab_size==51008 and len(tokenizer)==51008) or \
+            (model_vocab_size==49954 and len(tokenizer)==49954)
+        ):
+            raise ValueError(
+                f"The combination of base model (size: {model_vocab_size}) and tokenizer (size: {len(tokenizer)}) is not a valid configuration. Please check our project wiki for further information. \n"
+                "Valid configurations (base model / tokenizer):\n"
+                "- Continue pre-training original LLaMA: 32000 / 32000 \n"
+                "- Pre-training (Chinese) Amharic LLaMA based on original LLaMA: 32000 / 51008 \n"
+                "- Continue pre-training (Chinese) Amharic LLaMA: 51008 / 51008 \n"
+                "- Continue pre-training Chinese Alpaca: 49954 / 49954 \n"
+            )
+            
+        #RESIZE TOKEN EMBEDDINGS
+        model.resize_token_embeddings(len(tokenizer))
+        
+        if training_args.peft_path is not None:
+            logger.info("PEFT from pretrained model")
+            model = PeftModel.from_pretrained(model, training_args.peft_path)
+        else:
+            logger.info("Init new peft model")
+            target_modules = training_args.trainable.split(",")
+            modules_to_save = training_args.modules_to_save
+            if modules_to_save is not None:
+                modules_to_save = modules_to_save.split(",")
+            lora_rank = training_args.lora_rank
+            lora_dropout = training_args.lora_dropout
+            lora_alpha = training_args.lora_alpha
+            logger.info(f"Target modules: {target_modules}")
+            logger.info(f"LoRA Rank: {lora_rank}")
+            peft_config = LoraConfig(
+                task_type = TaskType.CAUSAL_LM,
+                targert_modules = target_modules,
+                inference_mode=False,
+                r = lora_rank, lora_alpha=lora_alpha, lora_dropout=lora_dropout,
+                modules_to_save=modules_to_save,
+            )    
+            
+            model= get_peft_model(model, peft_config)
+        model.print_trainable_parameters()
+        
+        
+            
             
