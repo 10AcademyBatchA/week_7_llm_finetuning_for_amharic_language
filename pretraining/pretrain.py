@@ -476,4 +476,40 @@ def main():
                     assert lm_datasets.features.type == processed_dataset['train'].features.type
                     lm_dataset = concatenate_datasets([lm_datasets, processed_dataset['train']])
                     
-                    
+            lm_datasets = lm_datasets.train_test_split(test_size= data_args.validation_split_percentage())
+            
+        if training_args.do_train:
+            train_dataset = lm_datasets["train"]
+            
+            
+            if data_args.max_train_samples is not None:
+                max_train_samples = min(len(train_dataset), data_args.max_train_samples)
+                train_dataset = train_dataset.select(range(max_train_samples))
+                logger.info(f"Num train samples {len(train_dataset)}")
+                logger.info("Training example: ")
+                logger.info(tokenizer.decode(train_dataset[0]["input_ids"]))
+                
+                
+        if model_args.model_name_or_path:
+            torch_dtype = (
+                model_args.torch_dtype
+                if model_args.torch_dtype in ["auto", None]
+                else getattr(torch, model_args.torch_dtype)
+            )
+            
+            model = LlamaForCausalLM.from_pretrained(
+                model_args.model_name_or_path,
+                from_tf=bool(".cpkt" in model_args.model_name_or_path),
+                config=config,
+                cache_dir=model_args.cache_dir,
+                revision=model_args.model_revision,
+                use_auth_token=True if model_args.use_auth_token else None,
+                torch_dtype=torch_dtype,
+                low_cpu_mem_usage=True,
+            )
+            
+        else:
+            model = AutoModelForCausalLM.from_config(config)
+            n_params = sum({p.data_ptr(): p.numel() for p in model.parameters()}.values())
+            logger.info(f"Training new model from scratch - Total size={n_params/2**20:.2f}M parameters")
+            
