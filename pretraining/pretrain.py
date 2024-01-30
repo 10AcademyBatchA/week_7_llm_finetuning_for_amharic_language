@@ -96,6 +96,285 @@ def fault_tolerance_data_collator(features: List) -> Dict[str, Any]:
             dtype = torch.long if isinstance(first["label_ids"][0], int) else torch.float
             batch["labels"] = torch.tensor([f["label_ids"] for f in features], dtype=dtype)
             
+    
+    try:
+        for k, v in first.items():
+            if k not in ("label", "label_ids") and v is not None and not isinstance(v, str):
+                if isinstance(v, torch.Tensor):
+                    batch[k] = torch.stack([f[k] for f in features])
+                elif isinstance(v, np.ndarray):
+                    batch[k] = torch.tensor(np.stack([f[k] for f in features]))
+                else: batch[k] = torch.tensor([f[k] for f in features])
+                
+    except ValueError:
+        for k, v in first.items():
+            if k not in ("label", "label_ids") and v is not None and not isinstance(v, str):
+                if isinstance(v, torch.Tensor):
+                    batch[k] = torch.stack([features[0][k]] * len(features))
+                elif isinstance(v, np.ndarray):
+                    #if v is a numpy array, then convert it to torch tensor
+                    batch[k] = torch.tensor(np.stack([features[0][k]] * len(features)))
+                else: 
+                    batch[k] = torch.tensor([features[0][k]] * len(features))
+                    
+    return batch
+
+MODEL_CONFIG_CLASSES = list(MODEL_FOR_CAUSAL_MAPPING.keys())
+MODEL_TYPES = tuple(conf.model_type for conf in MODEL_CONFIG_CLASSES)
+
+@dataclass
+class ModelArguments:
+    model_name_or_path: Optional[str] = field(
+        default=None,
+        metadata={
+            "help": (
+                "The model checkpoint for weights initialization.Don't set if you want to train a model from scratch."
+            )
+        },
+    )
+    
+    tokenizer_name_or_path: Optional[str] = field(
+        default=None,
+        metadata={"help": ("The tokenizer for weights initialization.")},
+    )
+    
+    model_type: Optional[str] = field(
+        default=None,
+        metadata={"help": "If training from scratch, pass a model type from the list: " + ", ".join(MODEL_TYPES)},
+    )
+    
+    config_overrides: Optional[str] = field(
+        default=None,
+        metadata={
+            "help": (
+                "Override some existing default config settings when a model is trained from scratch. Example: "
+                "n_embd=10,resid_pdrop=0.2,scale_attn_weights=false,summary_type=cls_index"
+            )
+        },
+    )
+    
+    config_name: Optional[str] = field(
+        default=None, metadata={"help": "Pretrained config name or path if not the same as model_name"}
+    )
+    tokenizer_name: Optional[str] = field(
+        default=None, metadata={"help": "Pretrained tokenizer name or path if not the same as model_name"}
+    )
+    
+    cache_dir: Optional[str] = field(
+        default=None,
+        metadata={"help": "Where do you want to store the pretrained models downloaded from huggingface.co"},
+    )
+    use_fast_tokenizer: bool = field(
+        default=True,
+        metadata={"help": "Whether to use one of the fast tokenizer (backed by the tokenizers library) or not."},
+    )
+    model_revision: str = field(
+        default="main",
+        metadata={"help": "The specific model version to use (can be a branch name, tag name or commit id)."},
+    )
+    use_auth_token: bool = field(
+        default=False,
+        metadata={
+            "help": (
+                "Will use the token generated when running `huggingface-cli login` (necessary to use this script "
+                "with private models)."
+            )
+        },
+    )
+    torch_dtype: Optional[str] = field(
+        default=None,
+        metadata={
+            "help": (
+                "Override the default `torch.dtype` and load the model under this dtype. If `auto` is passed, the "
+                "dtype will be automatically derived from the model's weights."
+            ),
+            "choices": ["auto", "bfloat16", "float16", "float32"],
+        },
+    )
+    
+    def __post_init__(self):
+        if self.config_overrides is not None and (self.config_name is not None or self.model_name_or_path is not None):
+            raise ValueError(
+                "--config_overrides cannot be used with --config_name or --model_name_or_path. To override some of "
+            )
             
+@dataclass
+class DataTrainingArguments:
+    '''
+    Arguments pertaining to what data we are going to input our model for training and eval.
+    '''
+    
+    dataset_dir: Optional[str] = field(
+        default=None, metadata={"the name of the dataset to use"}
+    )
 
+    dataset_config_name: Optional[str] = field(
+        default=None, metadata={"help": "The configuration name opf the dataset to use"}
+    )
+    
+    train_file: Optional[str] = field(
+        default=None, metadata={"help": "The input training file"}
+    )
+    
+    validation_file: Optional[str] = field(
+        default=None, metadata={"help": "This is optional but recommended if you want to use early stopping"}
+    )
+    
+    max_training_sample: Optional[int] = field(
+        default=None,
+        metadata={
+            "help": "Debugging purposes"
+        },
+    )
+    
+    max_eval_samples: Optional[int] = field(
+        default=None,
+        metadata={
+            "help": "For debugging"
+        },
+    )
+    
+    streaming: bool = field(default=False, metadata={"help": "Enable streaming mode"})
+    
+    # BLOCK SIZE CAN BE THE MAX INPUT FOR THE LENGTH OF THE MODEL 
+    block_size: Optional[int] = field(
+        default=None,
+        metadata={
+            "help": (
+                "Optional"
+                "Training dataset will be truncated into a block of this size for training"
+                "Default to the model max input sequence"
+            )
+        }
+    )
+    
+    # OVERWRITE CACHE DIRECTORY
+    #Returns bool type
+    
+    cache_dir: bool = field(
+        default=None,
+        metadata={"help": "Where do you want to store the pretrained models downloaded from huggingface.co"},
+    )
+    
+    # VALIDATION STRATEGY
+    #Float type
+    validation_strategy: Optional[float] = field(
+        default=0.01,
+        metadata={
+            "help": "Percentage of the validation set used at the end of each epoch"
+        }
+        
+    )
+    #PREPROCESSING NUM WORKERS
+    preprocessing_num_workers: Optional[int] = field(
+        default=None,
+        metadata={"help": "Number of processes to use for preprocessing"}
+    )
+    
+    keep_linebreaks: bool = field(
+        default=True, metadata=["help": "Whether to keep the linebreaks when using txt files or not"]
+    )
+    data_cache_dir: Optional[str] = field(default="./", metadata={"help": The datasets processed store})
+    
+    def __post_init__(self):
+        if self.streaming:
+            require_version("datasets>=2.0.0", "The streaming feature requires `datasets >= 2.0.0`")
+            
+            
+@dataclass
+class MyTrainingArguments(TrainingArguments):
+    trainable : Optional[str] = field(default="q_proj, v_proj")
+    lora_rank : Optional[str] = field(default=8)
+    lora_dropout : Optional[float] = field(default=0.03)
+    lora_alpha : Optional[float] = field(default=32.)
+    modules_to_save : Optional[str] = field(default=None)
+    debug_mode : Optional[str] = field(default=False)
+    peft_path : Optional[str] = field(default=None)
+    
+logger = logging.getLogger(__name__)
 
+def main():
+    
+    parser = HfArgumentParser(ModelArguments, DataTrainingArguments, MyTrainingArguments)
+    if len(sys.argv) == 2 sys.argv[1].endswith(".json"):
+        #If we pass only one argument and it is a json file, lets get the arguments
+        model_args, data_args, training_args = parser.parse_parse_json_file(json_file=os.path.abspath(sys.argv[1]))
+    else:
+        model_args, data_args, training_args = parser.parse_args_to_dataclasses()
+        
+    send-example_telemetry("run_clm", model_args, data_args)
+    
+    logging.basicConfig(format="%(asctime)s - %(levelname)s - %(name)s - %(message)s", datefmt="%m/%d/%Y %H:%M:%S",
+                        level=logging.INFO, # if training_args.local_rank in [-1,0] else logging.WARN,
+                        handlers=[logging.StreamHandler(sys.stdout)],)
+    
+    if training_args.should_log:
+        transformers.utils.logging.set_verbosity_info()
+        
+    log_level = training_args.get_process_log_level()
+    logger.setLevel(log_level)
+    datasets.utils.logging.set_verbosity(log_level)
+    transformers.utils.logging.enable_default_handler()
+    transformers.utils.logging.enable_explicit_format()
+    
+    logger.warning(
+        f"Process rank: {training_args.output_dir}, device: {training_args.device}, n_gpu: {training_args.n_gpu}"
+        + f"Distributed training: {bool(training_args.local_rank != -1)}, 16-bits-training: {training_args.fp16}"
+    )
+    
+    # Detecting the last checkpoint
+    
+    last_checkpoint = None
+    if os.path.isdir(training_args.output_dir) and training_args.do_train and not training_args.overwrite_output_dir:
+        last_checkpoint = get_last_checkpoint(training_args.output_dir)
+        if last_checkpoint is None and len(os.listdir(training_args.output_dir)) > 0:
+            raise ValueError (
+                f"Outpur dir {training_args.output_dir} already exists and is not mt"
+                "Use --overwrite_output_dir to overcome"
+            )
+        elif last_checkpoint is not None and training_args.resume_from_checkpoint is not None:
+            logger.info(
+                f"Checkpoint detected, resuming training at {last_checkpoint}. To avoid this, change "
+                "the --output-dir or --overwrite_output_dir to train from scratch"
+            )
+            
+    #set the seed before initializing model
+    set_seed(training_args.seed)
+    
+    config_kwargs = {
+        "cache_dir": model.cache_dir,
+        "revision": model_args.model_revision,
+        "use_auth_token": True if model-args.use_auth_token else None
+    }
+    
+    if model_args.config_name:
+        config = AutoConfig.from_pretrained(model_args.config_name, **config_kwargs)
+    elif model_args.model_name_or_path:
+        config = AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+    else: 
+        config = CONFIG_MAPPING[model_args.model_type]()
+        logger.warning("This is a new config from scratch")
+        if model_args.config_overrides is not None:
+            logger.info(f"Overriding config: {model_args.config_overrides}")
+            config.update_from_string(model_args.config_overrides)
+            logger.info(f"New config: {config}")
+            
+            
+    tokenizer_kwargs = {
+        "cache_dir": model_args.cache_dir,
+        "use_fast": model_args.use_fast_tokenizer,
+        "revision": model_args.model_revision,
+        "use_auth_token": True if model_args.use_auth_token else None
+    }
+    
+    if model_args.tokenizer_name:
+        tokenizer = AutoTokenizer.from_pretrained(model_args.tokenizer_name, **tokenizer_kwargs)
+    elif model_args.tokenizer_name_or_path:
+        tokenizer = LlamaTokenizer.from_pretrained(model_args.tokenizer_name_or_path, **tokenizer_kwargs)
+    else:
+        raise ValueError(
+            "Instantiating a tokenizer from scratch"
+        )
+        
+    # Preprocessing the datasets
+    
