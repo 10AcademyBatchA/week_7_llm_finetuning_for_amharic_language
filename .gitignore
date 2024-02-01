@@ -1,6 +1,7 @@
 main
 .env
 /cleaned
+/raw/*
 /amharic_tokenizer
 /amharic-llama
 
