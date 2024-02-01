@@ -42,3 +42,13 @@ Untitled.ipynb
 /backend/notebooks/*.model
 /backend/notebooks/*.vocab
 /merged/
+/home/biniyam_ajaw/finetuning/notebook/Amh-Llama-2
+/home/biniyam_ajaw/finetuning/notebook/out
+notebook/Amh-Llama-2/runs/Feb01_05-31-41_ip-172-31-63-145/events.out.tfevents.1706765515.ip-172-31-63-145.33109.3
+notebook/Amh-Llama-2/runs/Feb01_06-00-13_ip-172-31-63-145/events.out.tfevents.1706767218.ip-172-31-63-145.36815.0
+notebook/out/runs/Feb01_05-18-26_ip-172-31-63-145/events.out.tfevents.1706764707.ip-172-31-63-145.33109.0
+notebook/out/runs/Feb01_05-21-44_ip-172-31-63-145/events.out.tfevents.1706764907.ip-172-31-63-145.33109.1
+notebook/out/runs/Feb01_05-21-44_ip-172-31-63-145/events.out.tfevents.1706764941.ip-172-31-63-145.33109.2
+notebook/out/runs/Feb01_06-03-31_ip-172-31-63-145/events.out.tfevents.1706767416.ip-172-31-63-145.36815.1
+notebook/outputs/runs/Feb01_06-08-29_ip-172-31-63-145/events.out.tfevents.1706767716.ip-172-31-63-145.36815.2
+notebook/outputs/runs/Feb01_06-15-21_ip-172-31-63-145/events.out.tfevents.1706768127.ip-172-31-63-145.36815.3
