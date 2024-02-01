@@ -634,7 +634,7 @@ def main():
             
         model.save_pretrained(training_args.output_dir)
         
-        #evals
+        # Evaluation
         
         if training_args.do_eval:
             logger.info("*** Evaluate ***")
@@ -653,5 +653,5 @@ def main():
             trainer.log_metrics("eval", metrics)
             trainer.save_metrics('eval', metrics)
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
