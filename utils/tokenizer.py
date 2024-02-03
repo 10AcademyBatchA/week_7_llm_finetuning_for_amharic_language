@@ -3,15 +3,15 @@ from tokenizers.models import BPE
 tokenizer = Tokenizer(BPE(unk_token="[UNK]"))
 
 from tokenizers.trainers import BpeTrainer
-trainer = BpeTrainer(special_tokens=["[UNK]", "[CLS]", "[SEP]", "[PAD]", "[MASK]"], vocab_size=100000)
+trainer = BpeTrainer(special_tokens=["[UNK]", "[CLS]", "[SEP]", "[PAD]", "[MASK]"], vocab_size=80000)
 
 import tokenizers
 
 from tokenizers.pre_tokenizers import Whitespace
 tokenizer.pre_tokenizer = Whitespace()
 
-folder = 'data'
-files = [f"/home/biniyam_ajaw/finetuning/{folder}/{split}.csv" for split in ["test_data", "train_data", "valid_data"]]
+folder = './data'
+files = [f"/home/biniyam_ajaw/finetuning/{folder}/{split}.csv" for split in ["test", "train", "valid"]]
 tokenizer.train(files, trainer)
 
 from tokenizers.processors import TemplateProcessing

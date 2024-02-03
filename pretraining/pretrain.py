@@ -559,5 +559,99 @@ def main():
         model.print_trainable_parameters()
         
         
+        
+        peft_config = LoraConfig(
+            task_type=TaskType.CAUSAL_LM,
+            inference_mode=False,
+            r=8,
+            lora_alpha=32,
+            lora_dropout=0.03,
+            target_modules=['q_proj', 'v_proj', 'k_proj', 'o_proj', 'gate_proj', 'down_proj', 'up_proj'],
+            modules_to_save=['embed_tokens',  'lm_head']
+        )
+        
+        '''
+        Initialize the model with the PEFT configuration
+        
+        config = {
+            'lora_config': lora_config,
+            'learning_rate': 1e-4,
+            'num_train_epochs': 3,
+            'gradient_accumulation_steps': 4,
+            'per_device_train_batch_size': 4,
+            'per_device_eval_batch_size': 4,
+            'gradient_checkpointing': True,
+        }
+        
+        '''
+        
+        trainer = Trainer(
+            model=model,
+            args=training_args,
+            train_dataset=train_dataset if training_args.do_train else None,
+            eval_dataset=eval_dataset if training_args.do_eval else None,
+            tokenizer=tokenizer,
+            data_collator=fault_tolerance_data_collator,
+            compute_metrics=compute_metrics if training_args.do_eval and not is_torch_gpu_available() else None,
+            process_logits_for_metrics=preprocess_logits_for_metrics if training_args.do_eval and not is_torch_gpu_available() else None,
+        )
+        
+        
+        """
+        output_dir=training_args.output_dir,
+        overwrite_output_dir=True,
+        bf16=True,  # Use BF16 if available
+        # logging strategies
+        logging_dir=f"{training_args.output_dir}/logs",
+        logging_strategy="steps",
+        logging_steps=10,
+        save_strategy="steps",
+        save_steps=5000,
+        optim="adamw_torch_fused",
+        max_steps=-1, #total_steps if enable_profiler else -1,
+        **{k:v for k,v in config.items() if k != 'lora_config'}
+        """
+        
+        trainer.add_callback(SavePeftModelCallback)
+        
+        #Train
+        if training_args.do_train:
+            checkpoint = None
+            if training_args.resume_from_checkpoint is not None:
+                checkpoint = training_args.resume_from_checkpoint
+            elif last_checkpoint is not None:
+                checkpoint = last_checkpoint
             
+            train_res = trainer.train(resume_from_checkpoint=checkpoint)
+            metrics = train_res.metrics
             
+            max_train_samples = data_args.max_train_samples if data_args.max_train_samples is not None else len(train_dataset)
+            metrics['train_samples'] = min(max_train_samples, len(train_dataset))
+            
+            trainer.log_metrics("train", metrics)
+            trainer.save_metrics("train", metrics)
+            trainer.save_state()
+            
+        model.save_pretrained(training_args.output_dir)
+        
+        # Evaluation
+        
+        if training_args.do_eval:
+            logger.info("*** Evaluate ***")
+            
+            metrics = trainer.evaluate()
+            
+            max_eval_samples = data_args.max_eval_samples if data_args.max_eval_samples is not None else len(eval_dataset)
+            metrics['eval_samples'] = min(max_eval_samples, len(eval_dataset))
+            
+            try:
+                perplexity = math.exp(metrics["eval_loss"])
+            except OverFlowError:
+                perplexity = float("inf")
+            metrics['perplexity'] = perplexity
+            
+            trainer.log_metrics("eval", metrics)
+            trainer.save_metrics('eval', metrics)
+
+if __name__ == "__main__":
+    main()
