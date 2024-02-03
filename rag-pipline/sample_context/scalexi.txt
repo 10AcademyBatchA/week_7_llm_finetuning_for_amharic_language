@@ -1,0 +1,133 @@
+Product Requirements Document (PRD)
+Project Title: Role-based and User-friendly Tool for Managing
+Device Lists and Bandwidth Allocations from Observium
+1. Introduction
+1.1 Purpose
+This document outlines the product requirements for the development of a role-based and
+user-friendly from Observium. The tool aims to facilitate the management of device lists and
+bandwidth allocations, ensuring accurate data collection for peak and average bandwidth
+analysis. Users will be empowered to customize the device list, append or remove devices
+and sites, and view changes in the peak and average bandwidth report.
+1.2 Scope
+The feature will provide a comprehensive device management tool, enabling users to
+optimize network performance and resource utilization. It will include the ability to append
+and remove devices and sites, ensuring flexibility in customizing the device list. Additionally,
+the implementation of a role-based access control system will enhance security and prevent
+unauthorized modifications.
+2. Objectives
+2.1 Main Objectives
+The primary objectives include:
+● Development of a device management tool.
+● Implementation of a role-based access control system.
+● Enabling users to append and remove devices and sites.
+● Providing visibility into changes in the peak and average bandwidth report.
+● Retrieving average and peak bandwidth data from Observium.
+● Displaying the data in a table format with columns for device name, average
+bandwidth, peak bandwidth, and utilization.
+● Implementing time range filters to enable users to analyze data for specific durations.
+3. Key Features and Benefits
+3.1 Device Management
+●
+●
+Description: Provide a user-friendly interface for accessing and modifying the device
+list and bandwidth allocations.
+Benefits: Keep the database updated, ensuring accuracy and optimization of network
+performance.3.2 Append and Remove Devices and Sites
+●
+●
+Description: Allow users to easily append or remove devices and sites from the list.
+Benefits: Customize the device list based on specific needs, improving the relevance
+of data for analysis and reporting.
+3.3 Role-based Access
+●
+●
+Description: Implement a role-based access control system to restrict access and
+modification permissions.
+Benefits: Ensure security, prevent unauthorized changes, and maintain the integrity
+of the database.
+3.4 View Changes in the Report
+●
+●
+Description: Enable users to view changes in the peak and average bandwidth report
+after modifying the device list.
+Benefits: Evaluate the impact of changes on network performance, quality of service,
+and compare results with previous reports.
+3.5 Data Retrieval
+●
+Fetch average and peak bandwidth data for each specific site from Observium.
+3.6 User Interface
+●
+●
+Design a user-friendly table to display data.
+Include columns for device name, average bandwidth, peak bandwidth, and
+utilization.
+3.7 Time Range Filters
+●
+Implement time range filters for user customization.
+5. Assumptions and Constraints
+5.1 Assumptions
+●
+●
+Observium provides the necessary APIs for device list and bandwidth allocation
+management.
+Users have the required permissions to access and modify device lists.
+5.2 Constraints
+●
+●
+Development should align with Observium's existing architecture.
+Ensure compatibility with the latest Observium versions.
+6. Acceptance Criteria
+6.1 Functional Criteria
+●
+●
+Successful development and integration of the device management tool.
+Implementation of role-based access controls.●
+●
+●
+●
+●
+●
+Ability for users to append and remove devices and sites.
+Visibility into changes in the peak and average bandwidth report.
+Successful retrieval of average and peak bandwidth data.
+Clear display of data in a user-friendly table.
+Implementation of time range filters.
+Visible highlighting of peak time duration.
+6.2 Non-functional Criteria
+●
+●
+●
+●
+Minimal impact on system performance.
+Responsive design for various devices and screen sizes.
+Minimal impact on system performance.
+Responsive design for various devices and screen sizes.
+7. Technical Specifications
+7.1 Technologies
+●
+●
+Utilize Observium APIs for device list and bandwidth allocation management.
+Develop a web-based user interface using HTML, CSS, JavaScript, Vue js, and
+Laravel.
+7.2 Compatibility
+●
+Ensure compatibility with major web browsers (Chrome, Firefox, Safari).
+8. Timeline
+8.1 Milestones
+●
+●
+Week 1-2: Research and API integration for device management user interface
+design and development.
+Week 3-4: Testing, bug fixing, and documentation, release and deployment.
+9. Risks
+9.1 Technical Risks
+●
+Challenges in implementing role-based access controls.
+9.2 Operational Risks
+●
+User resistance to adopting the new device management tool.
+10. Conclusion
+This PRD outlines the requirements for implementing a role-based and user-friendly tool for
+managing device lists and bandwidth allocations within Observium.In addition to
+implementing the Bandwidth Analytics feature in Observium. Successful development will
+empower users with crucial insights for network optimization and performance monitoring.
