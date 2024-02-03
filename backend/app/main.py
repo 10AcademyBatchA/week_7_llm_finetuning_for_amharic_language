@@ -25,6 +25,11 @@ class HugResponseBase(BaseModel):
     answer: str
 
 
+class AmharicModelWithRAGBase(BaseModel):
+    question: str
+    answer: str
+
+
 @app.get("/getanswer", response_model=RagResponseBase)
 async def return_answer(question: str):
     result = simple_rag.test_RAG(question)
@@ -34,4 +39,10 @@ async def return_answer(question: str):
 @app.get("/getHuggingFaceAnswer", response_model=HugResponseBase)
 async def return_answer(model: str, prompt: str):
     result = hugging_face_hub.invoke_current_hugging_face_model(model, prompt)
+    return result
+
+
+@app.get("/getAmharicModelWithRAGAnswer", response_model=AmharicModelWithRAGBase)
+async def return_answer(model: str, prompt: str):
+    result = hugging_face_hub.use_amharic_model(model, prompt)
     return result
