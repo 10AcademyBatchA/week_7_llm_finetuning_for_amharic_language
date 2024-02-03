@@ -5,6 +5,7 @@ import TextInputWithLable from  './components/TextInputWithLable'
 import Dropdown from './components/Dropdown'
 import NavBarComp from './components/Navbar'
 import SpinnerWithText from './components/SpinnerWithText'
+// import './App.css'
 import api from './api/api'
 function App() {
   const [answer,setAnswer] = useState([]);
@@ -28,18 +29,18 @@ function App() {
       <main className='container'>
         <form className="row g-3" >
           
-          <div>
-            <label htmlFor="inputLable" className="form-label">Input Ad description to be generated</label>
-            <textarea className="form-control" id="inputTextarea" rows="7" ref={ref}/>
-          </div>
+            <div>
+              <label htmlFor="inputLable" className="form-label">Input Ad description to be generated</label>
+              <textarea className="form-control" id="inputTextarea" rows="7" ref={ref}/>
+            </div>
 
-          {isShow && <SpinnerWithText />}
+            {isShow && <SpinnerWithText />}
 
-          <button type="button" className="btn btn-primary mb-4" onClick={fetchResponse}>Get Ad</button> 
+            <button type="button" className="btn btn-primary mb-4" onClick={fetchResponse}>Get Ad</button> 
 
-          <div>
-            <TextInputWithLable value= {answer}/>
-          </div>
+            <div>
+              <TextInputWithLable value= {answer}/>
+            </div>
 
         </form>
       </main>
