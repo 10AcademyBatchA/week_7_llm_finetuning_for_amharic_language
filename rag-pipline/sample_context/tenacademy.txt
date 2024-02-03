@@ -1,0 +1,400 @@
+Weekly Challenge: Week 7
+LLM Finetuning: Enabling Quality Embedding and Text Generation for Amharic Language
+Overview
+Business Need
+AiQEM is an African startup focused on AI and Blockchain business solutions. AIQEM’s motivation is derived from a desire to have a greater impact on Ethiopian and African businesses by harnessing technological innovations in the AI and Blockchain area. AIQEM’s latest flagship project released to the Ethiopian market is an end-to-end AI based Telegram Ad solution called Adbar. Through a network of telegram bots and extensive data analysis, Adbar optimally places ads to different telegram channels. But given Telegram's growing prominence as a messaging platform, our company needs to adjust its advertising strategy to better fit this ever-changing ecosystem. 
+This project intends to improve the effectiveness of our promotional efforts by integrating powerful AI capabilities for Amharic text manipulation, in particular creating an Amharic RAG pipeline that will help generate Amharic based creative text Ad contents given campaign information such as brief (brand and product information) and the content history of a telegram channel. 
+A successful delivery of this project makes sure that our advertisements are both catchy and relevant to the Telegram community. To achieve this, the technology is required to have quality amharic text embedding and text generation capability. In order to do that, you should choose a suitable opensource LLM model - should already have a capability to embed amharic texts such as Nous Hermes Mistral 8 7B or amharic language finetuned version of  LLama 2 (Samuael/llama-2-7b-tebot-amharic or iocuydi/llama-2-amharic-3784m) -  and finetune it further to deliver the business objective.
+
+
+Inspirations 
+The following works are our inspiration. We envision to collaborate with all stakeholders to create a robust quality LLM for the Amharic languages. 
+Llama2-Chinese/README_EN.md at main · FlagAlpha/Llama2-Chinese (github.com) 
+
+
+Data
+The data contains exported Telegram messages in JSON format representing 25 telegram public channels, The channel contains messages of different types, including service messages and content messages. Service messages may include details about the creation or modification of the channel, while content messages vary in terms of date, author, and specific content.
+Content messages within the channel cover a range of topics, featuring updates, discussions, or multimedia content tailored to the interests of the channel's audience. These messages may include text in different languages, images, and potentially formatted text elements like bold or italicized sections. The structure of the JSON object provides information about the sender, timestamps, message types, and any associated multimedia content.
+
+
+Description
+Please find an example of Brief and Telegram Ad content here
+You can find zipped folder data that contains telegram amharic posts from multiple channels here. Columns in the files in the folder are: 
+name: The name of the Telegram channel.
+type: The type of the Telegram channel.
+id: The unique identifier for the Telegram channel.
+messages: An array containing individual messages within the channel:
+id: The unique identifier for each message.
+type: The type of the message, distinguishing between "message" (content-related messages) and ‘service’ messages..
+date: The timestamp indicating when the message was sent.
+date_unixtime: The Unix timestamp equivalent of the message's date.
+edited: Timestamp indicating when the message was last edited.
+edited_unixtime: The Unix timestamp equivalent of the edited date.
+from: The sender or actor of the message,
+from_id: The unique identifier for the sender.
+author: The author of the message.
+photo: Information about any included photo (not provided in the JSON object).
+width: The width of the included photo.
+height: The height of the included photo.
+text: The textual content of the message, including an array with Amharic text and mention entities.
+text_entities: Information about entities in the text, such as mentions, with details about the type and text.
+Suggested folder structure for your data organisation:
+raw: A directory holding all the telegram raw message data.
+parsed: A directory holding the telegram parsed message data with columns:
+id: Telegram Channel ID
+text: message content
+date: message broadcast datetime.
+label (s): one or more data labels relevant to your supervised training 
+cleaned: A directory holding all the telegram channel’s cleaned message data.
+final: A directory holding all the message data depending on the need; for example this directory might hold the channel's word frequencies, n_grams, and many more.
+Data Labels
+Ad verticals are categories of businesses that share common characteristics, needs, and goals in terms of advertising. Here are some definitions of the ad verticals you asked about:
+Retail: This vertical includes businesses that sell goods directly to consumers, such as clothing, groceries, furniture, books, etc. Retail advertisers aim to drive traffic to their physical or online stores, increase sales, and build brand loyalty.
+Automotive: This vertical includes businesses that manufacture, sell, or service vehicles, such as cars, trucks, motorcycles, etc. Automotive advertisers seek to raise awareness, generate leads, and influence purchase decisions among potential buyers.
+Financial services: This vertical includes businesses that provide financial products or services, such as banking, insurance, investing, lending, etc. Financial services advertisers want to educate consumers, build trust, and encourage conversions or sign-ups.
+Telecom: This vertical includes businesses that offer telecommunications services, such as phone, internet, cable, etc. Telecom advertisers aim to promote their plans, features, and benefits, as well as retain existing customers and acquire new ones.
+CPG & consumer products: This vertical includes businesses that produce or sell consumer packaged goods, such as food, beverages, household items, personal care products, etc. CPG & consumer products advertisers want to increase brand awareness, preference, and loyalty, as well as drive sales and repeat purchases.
+Travel: This vertical includes businesses that provide travel-related products or services, such as airlines, hotels, car rentals, tours, etc. Travel advertisers want to inspire travelers, showcase their destinations and offers, and generate bookings and reservations.
+Computing products & consumer electronics: This vertical includes businesses that manufacture or sell computing products or consumer electronics, such as laptops, smartphones, tablets, cameras, etc. Computing products & consumer electronics advertisers want to demonstrate their products’ features, functionality, and value, as well as persuade consumers to choose their brand over competitors.
+Media: This vertical includes businesses that produce or distribute media content, such as news, entertainment, sports, etc. Media advertisers want to attract and engage audiences, increase subscriptions or viewership, and monetize their content.
+Entertainment: This vertical includes businesses that provide entertainment products or services, such as movies, TV shows, music, video games, live events, etc. Entertainment advertisers want to create buzz, generate interest, and drive consumption or attendance among their target audiences.
+Healthcare & pharma: This vertical includes businesses that provide healthcare or pharmaceutical products or services, such as hospitals, clinics, doctors, drugs, devices, etc. Healthcare & pharma advertisers want to inform consumers, patients, and professionals, as well as promote their solutions and outcomes.
+Tags useful to label an add together with one of the above cateogry
+Gambling: Contains content related to betting or wagering in a real-world or online setting.
+Politics: Political news and media, including discussions of social, governmental, and public policy.
+Profanity: Prominent use of words considered indecent, such as curse words and sexual slang. Pages with only very occasional usage, such as news sites that might include such words in a quotation, are not included.
+Religious: Targets religion content or promption  
+
+Data Labeling Group Assignment
+
+Group
+Channel
+Message ID Range
+1
+"TIKVAH"
+1-15000
+"Sheger Press"
+All
+2
+"TIKVAH"
+15001-30000
+"Wasu Mohammed(ዋሱ መሀመድ)"
+All
+3
+"TIKVAH"
+30001-45000
+"ኢትዮ መረጃ - NEWS"
+All
+4
+"TIKVAH"
+45001-6000
+"አዲስ ነገር መረጃ"
+All
+5
+"TIKVAH"
+60001-7500
+"YeneTube"
+All
+6
+"TIKVAH"
+75001-9000
+"ዳጉ ስፖርት DAGU SPORT"
+All
+
+
+
+Expected Outcomes
+Skills:
+Experience working with Huggingface APIs and platform 
+Fine tuning and deploying LLMs
+Experience in using multiple GPUs for parallel training and inference  
+Working with Deep Learning Frameworks 
+Amharic text processing
+Proficiency in Python programming language
+Proficiency in Prompt Engineering
+Knowledge:
+Understanding Transformer Models and their components
+Understanding the building blocks of Instruction Based LLMs 
+Understanding Chat Models such as ChatML chat template  
+Natural Language Processing (NLP) Knowledge
+Machine Learning and AI Knowledge
+
+Team
+Tutors: 
+Yabebal
+Emitinan
+Rehmet
+Badges
+Each week, one user will be awarded one of the badges below for the best performance in the category below.
+
+In addition to being the badge holder for that badge, each badge winner will get +20 points to the overall score.
+
+Visualization - quality of visualizations, understandability, skimmability, choice of visualization
+Quality of code - reliability, maintainability, efficiency, commenting - in future this will be CICD/CML
+Innovative approach to analysis -using latest algorithms, adding in research paper content and other innovative approaches
+Writing and presentation - clarity of written outputs, clarity of slides, overall production value
+Most supportive in the community - helping others, adding links, tutoring those struggling
+
+The goal of this approach is to support and reward expertise in different parts of the Machine learning engineering toolbox.
+Group Work Policy
+This week, you are expected to complete the project with your assigned group. In the table below, your name is assigned to one of the groups we formed.
+
+
+
+
+Group Name (number)
+Group Members (Fill your name)
+Base LLM Model (Fill it when you choose)
+Group 1
+
+
+
+
+Group 2
+
+
+
+
+Group 3
+
+
+
+
+Group 4
+
+
+
+
+Group 5
+
+
+
+
+Group 6
+
+
+
+
+
+
+Instructions
+The rapidly evolving landscape of LLMs benefitted from the unprecedented scales of model size and training data producing models with strong capabilities, including  reasoning and learning from experience at levels surpassing humans’. 
+
+However, due to the high imbalance in training data (text sources from the internet), English dominates in these models. Models are not as proficient in other languages, especially low-resource languages that are absent from the multilingual training corpora. 
+
+Collecting large-scale data for a  low-resource language and retraining an LLM can be prohibitively expensive due to computational and data collection costs. A better approach is transfer learning; transferring an LLM’s capabilities from English to a non-English language through further pre-training and fine-tuning.
+
+As part of this challenge, you are required to do the following tasks 
+Understand the LLM landscape as of Jan 2024
+Understand the building blocks of 
+LLM base models (encoder only, encoder-decoder, decoder only)
+GPU memory needs (15-20GB, 20-80GB, >80GB), Numbers of GPUs, and time to full pretraining and finetuning.
+How to finetune
+Instruct finetuning
+Chat finetuning
+Understand the key components of LLM Training and Finetuning
+Pre-training: self-supervised learning predicting the next word in a given context
+Supervised fine tuning (SFT)
+Parameter-efficient Tuning (PEFT)
+Low-Rank Adaptation (LoRA)  
+Overview of best contender open source LLM models and their variations
+Mistral:  7B, 8x 7b, 
+Llama 2: 7b
+Falcon: 7b
+Stable AI 2:  1.6B
+OpenLLama: 3B, 7B 
+Explore huggingface documentation for inference and finetuning 
+Test hugging face embedding examples on your local machine tasks
+Test hugging face small LLM models on your local machine
+Test hugging face modules for 
+Data loading, preprocessing, batching, and tokenizing 
+Loading quantized models (BitsAndBytes)
+Applying parameter-efficient finetuining (PEFT) 
+Applying LoRA 
+General techniques to reduce memory and finetune efficiently with a optimal tradeoff among, memory,  speed,  and accuracy
+Understand and Prepare Amharic data for finetuning 
+Explore provided data as well as what you can find in the web
+Prepare data to be ingested in your instruction-finetuning pipeline
+Prepare evaluation datasets to benchmark your finetuned model with baseline OpenAI/Huggingface deployed models
+Select an open-source LLM model and finetune it 
+Build a RAG system to generate Amharic Ad taglines and telegram ad posts given an amharic/english/mixed  document (brief & channel data) 
+Deploy your RAG with simple frontend (e.g. streamlit or react) page
+	
+Task 1: Literature Review & Huggingface ecosystem 
+In this task you are expected to review basic concepts and methods used to perform further pre-training and fine-tuning of a LLM:
+
+
+Get good understanding of the following concepts and techniques relevant to LLMs
+Definitions of key terms and concepts
+hackerllama - The Llama Hitchiking Guide to Local LLMs (osanseviero.github.io)
+Background knowledge on LLMs: 
+Introduction to Large Language Models
+Understanding LLMs: A Comprehensive Overview from Training to Inference
+Transformer architecture (encoder, decoder, self-attention)
+How Self Attention works in Transformer
+Generative AI: The Science Behind Large Language Models - Simplified
+LLM Landscape
+Architecture: three categories: Encoder-only , Encoderdecoder and Decoder-only
+LLM Boxing • Choose your Champion
+Comparing the Best Open-Source Large Language Models | Shakudo
+library (ollama.ai)
+Embedding of the input data: Tokenization, Positional Embedding
+google/sentencepiece: Unsupervised text tokenizer for Neural Network-based text generation. (github.com)
+Test how tokenization works with OpenAI tokenizer 
+Master Positional Encoding: Part I | by Jonathan Kernes | Towards Data Science
+Understanding positional embeddings in transformer models (harrisonpim.com)
+
+
+Get familiar with Huggingface ecosystem
+Review huggingface documentation
+Hugging Face Hub documentation
+🤗 Transformers (huggingface.co)
+Templates for Chat Models (huggingface.co)
+Try some examples  on your local machine
+Building a PDF Knowledge Bot With Open-Source LLMs - A Step-by-Step Guide | Shakudo
+An Introduction to Using Transformers and Hugging Face
+How instruction finetuning works
+huggingface/alignment-handbook: Robust recipes for to align language models with human and AI preferences (github.com)
+Amharic data collection, processing, and pipeline for LLM finetuning 
+Llama-2-Amharic: LLMs for Low Resource Languages | by Garri Logistics | Dec, 2023 | Medium,
+
+Task 2: Load an LLM and Use It for Inference 
+This task will see you setting up your work environment, load an open source pre-trained LLM and use it to generate output for a variety of scenarios (text generation, translation, question answering, summarization ..etc).
+Set up a Huggingface account (this is required for accessing some open source models e.g. LLaMA 2, and to  upload your fine-tuned model later)
+Note about LLaMA: to get access to the model you need to
+Fill this  Meta’s Form, with the same email address you used to create your Hugging Face account. 
+Visit the page of one of the LLaMA 2 available models, and accept Hugging Face’s licence terms and acceptable use policy.
+Set up your environment [GPU enabled notebooks]
+Make a choice of open source LLM to use.
+The choice of model (including the size of the model) depends on the use case and computational resource available.
+Choosing the Right Open-Source LLM for Your Needs
+Which Open Source LLM Best to FINE-TUNE ? 
+Check the comprehensive list of open source/access LLMs on Hugging Face.
+[optional] You can use HuggingChat (Hugging Face's open-source chat UI for LLMs) to check a couple of LLMs (eg:  Mixtral-8x7B and Llama 2 model  fine-tuned for dialogue) 
+Load an open source LLM from Hugging Face. The size of the model will depend on whether we use quantization
+Without model quantization:
+How to download open source LLM models from hugging face and use it locally on your machine
+Running a Hugging Face Large Language Model
+With model quantization: Model Quantization with 🤗 Hugging Face Transformers and Bitsandbytes Integration
+Inference: use the loaded LLM to generate output. Make sure to test multiple inference scenarios  (text generation, translation, question answering, summarization) and test the model’s ability to handle Amharic language 
+Hugging Face docs: Generation with LLMs
+[optional] use a pipeline for inference
+Task 3: Data preprocessing and preparation
+You may follow Llama-2-Amharic: LLMs for Low Resource Languages | by Garri Logistics | Dec, 2023 | Medium to understand the important steps of amharic data preparation for LLM finetuning. 
+
+
+Suggested tasks (be creative to do more) are:
+Understand the structure of the raw data in the data/raw/ directory.
+Parse the message from the raw json including the features:
+message
+id (channel_id)
+date
+Save the parsed data in the data/parsed/ directory.
+Extract and clean/remove features such as:
+Remove:
+null values
+new lines (“\n”)
+extra spaces
+Extract and remove:
+hashtags
+emojis 
+links 
+mentions (@user_name)
+other symbols
+Replace:
+* ['ሐ', 'ሑ', 'ሒ', 'ሓ', 'ሔ', 'ሖ'] with ['ሀ', 'ሁ', 'ሂ', 'ሃ', 'ሄ', 'ህ', 'ሆ']
+* ['ኀ', 'ኁ', 'ኂ', 'ኃ', 'ኄ', 'ኅ', 'ኆ'] with ['ሀ', 'ሁ', 'ሂ', 'ሃ', 'ሄ', 'ህ', 'ሆ']
+* ['ሠ', 'ሡ', 'ሢ', 'ሣ', 'ሤ', 'ሦ', 'ሦ', 'ሧ'] with ['ሰ, 'ሱ', 'ሲ', 'ሳ', 'ሴ', 'ስ', 'ሶ', 'ሷ']
+* ['ዐ', 'ዑ', 'ዒ', 'ዓ', 'ዔ', 'ዕ', 'ዖ'] with ['አ', 'ኡ', 'ኢ', 'ኣ', 'ኤ', 'እ', 'ኦ']
+* ['ጸ', 'ጹ', 'ጺ', 'ጻ', 'ጼ', 'ጽ', 'ጾ'] with ['ፀ', 'ፁ', 'ፂ', 'ፃ', 'ፄ', 'ፅ', 'ፆ']
+Save the cleaned data in the data/cleaned/ directory.
+Task 4: Fine-Tuning the LLM
+Steps needed to fine-tune the LLM. Steps from inputting the data to model deployment. 
+
+You may use 
+iocuydi/amharic-llama-llava (github.com) 
+Chinese-LLaMA-Alpaca-2 v4.0 released long context LLMs (64K) and RLHF-tuned LLMs
+facebookresearch/llama-recipes: Examples and recipes for Llama 2 model (github.com)
+alignment-handbook/scripts/README.md at main · huggingface/alignment-handbook (github.com)
+How to Fine-tune an LLM Part 3: The HuggingFace Trainer | alpaca_ft – Weights & Biases (wandb.ai) (check out part 1 & 2 as well)
+as starter.
+
+You may choose one of the followng as your base model
+Introducing Stable LM 2 1.6B — Stability AI
+Mistral 7B | Mistral AI | Open-weight models 2310.06825.pdf (arxiv.org)
+imoneoi/openchat: OpenChat: Advancing Open-source Language Models with Imperfect Data (github.com)
+tiiuae/falcon-7b · Hugging Face
+Llama 2 - Meta AI
+Task 5: Build a RAG pipeline to generate Telegram Amharic Ad Posts
+Following the techniques you employed in Week 6 to build an Enterprise grade RAG systems for english language, apply similar techniques and algorithms to build RAG pipeline for amharic language. 
+Retrive the relevant information from english and amharic texts about 
+Advertiser information
+Product being advertised
+Campaign inputs i.e. briefs
+Craft a good prompt 
+Generate Candidate Ads
+Evaluate Pipeline
+
+
+Tutorials Schedule
+In the following, the colour purple indicates morning sessions, and blue indicates afternoon sessions.
+Monday: The Mechanics of LLMs
+Challenge walk through and Introduction to transformers.
+Introduction to Week Challenge (Yabebal)
+Overview of LLMs:  Their transformer architecture and main techniques (Emtinan)
+
+
+Key Performance Indicators:
+Understand the project 
+Get a good understanding of how LLMs work
+Tuesday: Tokenization and Vocabulary Creation
+More concepts
+Q&A session (Yabebal)
+Tokenization and Word embedding (Natnael)
+
+
+Wednesday: LLMs Fine-tuning
+Get a good understanding of data preparation and LLM finetuning .
+Different types of fine-tuning a pre-trained LLM (Emtinan)
+Components of a transformer Model (Yabebal)
+
+
+Thursday: Inference & LLMOps 
+More concepts 
+Components of a transformer Model (Yabebal)
+Advanced use of Huggingface (Rehemet)
+Friday: Deployment 
+More concepts 
+Data Preparation for Instruction Tuning (Natnael) 
+
+
+Deliverables
+NOTE: Document should be a PDF stored in google drive or published blog link. DO NOT SUBMIT A LINK as PDF! If you want to submit pdf document, it should be the content of your report not a link. 
+Interim Submission - Wednesday 8pm UTC
+Link to your code in GitHub
+Repository where you will be using to complete the tasks in this week's challenge. A minimum requirement is that you have a well structured repository and some coding progress is made.
+
+
+A review report of your reading and understanding of Task 1 & 2 and any progress you made in other tasks. 
+Feedback
+You may not receive detailed comments on your interim submission, but will receive a grade.
+Final Submission - Saturday 8pm UTC
+Link to your code in GitHub 
+Complete work  for Finetuning LLMs with Amharic data
+Complete work  for Generating Amharic Ad texts  
+Complete work for RAG quality, huggingface deployment, frontend 
+
+A blog post entry (which you can submit for example to Medium publishing) or a pdf report. . 
+Feedback
+You will receive comments/feedback in addition to a grade.
+
+References
+Complete Beginner’s Guide to Hugging Face LLM Tools
+Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA
+PEFT (Parameter-Efficient Fine-Tuning)
+Finetuning Large Language Models (LLMs) BERT
+
+Infrastructure 
+Benchmarking Popular Opensource LLMs: Llama2, Falcon, and Mistral (truefoundry.com)
+
+
