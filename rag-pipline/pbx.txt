@@ -1,0 +1,4783 @@
+Alcatel-Lucent Enterprise Myriad Series User
+Manual (M3/M5/M7)
+
+Alcatel Lucent Enterprise Communication Device Business
+Web: www.aledevice.com; www.al-enterprise.com
+Email: sales.alesip@al-enterprise.com
+
+Contents
+1 Introduction����������������������������������������������������������������������������������������������������������������������������������������������������������������������������� 7
+2 Getting started����������������������������������������������������������������������������������������������������������������������������������������������������������������������� 9
+2.1
+
+Unboxing�������������������������������������������������������������������������������������������������������������������������������������������������������������������� 9
+
+2.2
+
+Install your desk phone���������������������������������������������������������������������������������������������������������������������������������������� 9
+
+2.2.1 Install the foot������������������������������������������������������������������������������������������������������������������������������������������������������ 9
+2.2.2 Connect the device������������������������������������������������������������������������������������������������������������������������������������������ 10
+2.2.3 Install a comfort wired handset����������������������������������������������������������������������������������������������������������������� 10
+3 Getting to know your telephone���������������������������������������������������������������������������������������������������������������������������������� 11
+3.1
+
+M7 DeskPhone������������������������������������������������������������������������������������������������������������������������������������������������������ 11
+
+3.2
+
+M5 DeskPhone������������������������������������������������������������������������������������������������������������������������������������������������������ 12
+
+3.3
+
+M3 DeskPhone������������������������������������������������������������������������������������������������������������������������������������������������������ 13
+
+3.4
+
+Main screen������������������������������������������������������������������������������������������������������������������������������������������������������������ 14
+
+3.5
+
+Call management screen����������������������������������������������������������������������������������������������������������������������������������� 15
+
+3.6
+
+Navigation keys���������������������������������������������������������������������������������������������������������������������������������������������������� 15
+
+3.7
+
+Permanent features keys���������������������������������������������������������������������������������������������������������������������������������� 16
+
+3.8
+
+Programmed key icons�������������������������������������������������������������������������������������������������������������������������������������� 17
+
+3.9
+
+Status icons/ Call icons�������������������������������������������������������������������������������������������������������������������������������������� 18
+
+3.10 Alpha-numeric keyboard���������������������������������������������������������������������������������������������������������������������������������� 19
+3.11 Description of the connectors������������������������������������������������������������������������������������������������������������������������� 20
+4 Using your telephone������������������������������������������������������������������������������������������������������������������������������������������������������� 21
+4.1
+
+Information about the phone�������������������������������������������������������������������������������������������������������������������������� 21
+
+4.1.1 More information about new events�������������������������������������������������������������������������������������������������������� 21
+4.1.2 More information about phone status����������������������������������������������������������������������������������������������������� 21
+4.2
+
+Multiple SIP accounts����������������������������������������������������������������������������������������������������������������������������������������� 22
+
+4.2.1 Program a line key for a SIP account������������������������������������������������������������������������������������������������������� 22
+4.2.2 Define the default SIP account�������������������������������������������������������������������������������������������������������������������� 22
+4.3
+
+Making call�������������������������������������������������������������������������������������������������������������������������������������������������������������� 23
+
+4.3.1 Open the dailer�������������������������������������������������������������������������������������������������������������������������������������������������� 23
+4.3.2 Calling by number�������������������������������������������������������������������������������������������������������������������������������������������� 23
+4.3.3 Calling by name������������������������������������������������������������������������������������������������������������������������������������������������� 24
+4.3.4 Call from call log����������������������������������������������������������������������������������������������������������������������������������������������� 25
+4.3.5 Calling using your personal directory������������������������������������������������������������������������������������������������������ 25
+4.3.6 Calling using speed dial key������������������������������������������������������������������������������������������������������������������������� 26
+4.3.7 Making a peer to peer SIP call��������������������������������������������������������������������������������������������������������������������� 26
+4.4
+
+Receiving a call����������������������������������������������������������������������������������������������������������������������������������������������������� 27
+
+Copyright @ALE 2020 All Right Reserved
+
+2
+
+4.5
+
+Switching between audio modes������������������������������������������������������������������������������������������������������������������� 27
+
+4.6
+
+Redialing������������������������������������������������������������������������������������������������������������������������������������������������������������������ 28
+
+4.6.1 Call back the last number dialed���������������������������������������������������������������������������������������������������������������� 28
+4.6.2 Call back one of the last numbers dialed������������������������������������������������������������������������������������������������ 28
+4.7
+
+Contacts management���������������������������������������������������������������������������������������������������������������������������������������� 29
+
+4.7.1 Contact card�������������������������������������������������������������������������������������������������������������������������������������������������������� 29
+4.7.2 Contacts management������������������������������������������������������������������������������������������������������������������������������������ 30
+4.7.3 Call your contact����������������������������������������������������������������������������������������������������������������������������������������������� 31
+4.7.4 Create a new contact in your local directory���������������������������������������������������������������������������������������� 31
+4.7.5 Create a new group����������������������������������������������������������������������������������������������������������������������������������������� 32
+4.7.6 Modify a contact����������������������������������������������������������������������������������������������������������������������������������������������� 32
+4.7.7 Delete a contact in a directory������������������������������������������������������������������������������������������������������������������� 32
+4.7.8 Delete all contacts in a directory��������������������������������������������������������������������������������������������������������������� 32
+4.7.9 Delete a group in the local directory�������������������������������������������������������������������������������������������������������� 32
+4.7.10 Delete all group in the local directory����������������������������������������������������������������������������������������������������� 33
+4.7.11 Import contacts from your mobile phone via Bluetooth® (M7)������������������������������������������������������ 33
+4.8
+
+Manage the call log (History)�������������������������������������������������������������������������������������������������������������������������� 34
+
+4.8.1 Call the contact�������������������������������������������������������������������������������������������������������������������������������������������������� 35
+4.8.2 Display missed calls only������������������������������������������������������������������������������������������������������������������������������ 35
+4.8.3 Delete a contact in the call log�������������������������������������������������������������������������������������������������������������������� 35
+4.8.4 Clear the call log����������������������������������������������������������������������������������������������������������������������������������������������� 35
+4.9
+
+Speed dial management������������������������������������������������������������������������������������������������������������������������������������ 36
+
+4.9.1 Create a speed dial key���������������������������������������������������������������������������������������������������������������������������������� 36
+4.9.2 Make call using speed dial���������������������������������������������������������������������������������������������������������������������������� 36
+4.10 Sending DTMF signals���������������������������������������������������������������������������������������������������������������������������������������� 36
+4.11 Mute, so that your contact cannot hear you��������������������������������������������������������������������������������������������� 37
+4.12 Auto answer����������������������������������������������������������������������������������������������������������������������������������������������������������� 37
+4.13 Make an intercom call���������������������������������������������������������������������������������������������������������������������������������������� 37
+4.14 Configure the intercom incoming calls�������������������������������������������������������������������������������������������������������� 38
+4.15 Change PIN code�������������������������������������������������������������������������������������������������������������������������������������������������� 38
+4.16 Lock / unlock your telephone������������������������������������������������������������������������������������������������������������������������� 38
+4.16.1 Lock your phone����������������������������������������������������������������������������������������������������������������������������������������������� 39
+4.16.2 Unlock your phone������������������������������������������������������������������������������������������������������������������������������������������� 39
+4.16.3 Activate or deactivate the automatic keypad lock����������������������������������������������������������������������������� 39
+4.17 During conversation������������������������������������������������������������������������������������������������������������������������������������������� 40
+4.18 Making a second call during a conversation��������������������������������������������������������������������������������������������� 40
+4.19 Answering a second call during a conversation�������������������������������������������������������������������������������������� 41
+4.20 To cancel your second call and recover the first������������������������������������������������������������������������������������ 41
+
+Copyright @ALE 2020 All Right Reserved
+
+3
+
+4.21 Placing a call on hold (hold)����������������������������������������������������������������������������������������������������������������������������� 41
+4.22 Switching between calls (Broker call)���������������������������������������������������������������������������������������������������������� 42
+4.23 Transferring a call������������������������������������������������������������������������������������������������������������������������������������������������ 42
+4.23.1 To transfer a call to another contact on hold���������������������������������������������������������������������������������������� 42
+4.23.2 To transfer your call to another number������������������������������������������������������������������������������������������������ 42
+4.23.3 Blind transfer����������������������������������������������������������������������������������������������������������������������������������������������������� 43
+4.24 Three-way conference��������������������������������������������������������������������������������������������������������������������������������������� 43
+4.24.1 End the conference with all participants������������������������������������������������������������������������������������������������ 43
+4.24.2 After the conference, to leave your two contacts talking together��������������������������������������������� 44
+4.25 Five-way conference with internal contacts) (M7, M5)������������������������������������������������������������������������ 44
+4.25.1 End the conference with all participants������������������������������������������������������������������������������������������������ 44
+4.26 Hide your phone number���������������������������������������������������������������������������������������������������������������������������������� 45
+4.27 Reject anonymous calls������������������������������������������������������������������������������������������������������������������������������������� 45
+4.28 Do not disturb������������������������������������������������������������������������������������������������������������������������������������������������������� 45
+4.29 Forwarding to a number����������������������������������������������������������������������������������������������������������������������������������� 46
+4.30 Cancelling all forwards�������������������������������������������������������������������������������������������������������������������������������������� 46
+4.31 Listen to your voicemail����������������������������������������������������������������������������������������������������������������������������������� 47
+4.32 Defining a 'hotline' number������������������������������������������������������������������������������������������������������������������������������ 47
+5 Do more with your desk phone������������������������������������������������������������������������������������������������������������������������������������ 49
+5.1
+
+Use your desk phone as a USB audio hub for your computer����������������������������������������������������������� 49
+
+5.1.1 Installation���������������������������������������������������������������������������������������������������������������������������������������������������������� 49
+5.1.1.1 Prerequisites����������������������������������������������������������������������������������������������������������������������������������������������� 49
+5.1.1.2 Connect your computer to your desk phone���������������������������������������������������������������������������������� 50
+5.1.1.3 Set the default audio device for Windows�������������������������������������������������������������������������������������� 50
+5.1.2 Using your phone as an audio hub������������������������������������������������������������������������������������������������������������ 52
+5.2
+
+Configure your phone for remote working������������������������������������������������������������������������������������������������ 53
+
+5.3
+
+Connect your phone to the Wi-Fi������������������������������������������������������������������������������������������������������������������ 54
+
+5.3.1 Configure the wireless network������������������������������������������������������������������������������������������������������������������ 54
+5.3.2 Manage wireless network����������������������������������������������������������������������������������������������������������������������������� 55
+5.3.2.1 Open the Wi-Fi manager������������������������������������������������������������������������������������������������������������������������� 55
+5.3.2.2 Add a new wireless network���������������������������������������������������������������������������������������������������������������� 55
+5.3.2.3 Modify a saved wireless network������������������������������������������������������������������������������������������������������� 56
+5.3.2.4 Remove a saved wireless network����������������������������������������������������������������������������������������������������� 56
+5.4
+
+Hot Desking������������������������������������������������������������������������������������������������������������������������������������������������������������ 56
+
+5.4.1 Login to hot desking���������������������������������������������������������������������������������������������������������������������������������������� 56
+5.4.2 Logout of hot desking������������������������������������������������������������������������������������������������������������������������������������� 57
+5.5
+
+Third-Party Call Control (3PCC) with Rainbow application����������������������������������������������������������������� 57
+
+6 Programming your telephone��������������������������������������������������������������������������������������������������������������������������������������� 58
+
+Copyright @ALE 2020 All Right Reserved
+
+4
+
+6.1
+
+Adjusting the audio functions������������������������������������������������������������������������������������������������������������������������� 58
+
+6.1.1 Select the melody��������������������������������������������������������������������������������������������������������������������������������������������� 58
+6.1.2 Adjusting the ringer volume������������������������������������������������������������������������������������������������������������������������ 58
+6.1.3 Configure the ringtone����������������������������������������������������������������������������������������������������������������������������������� 58
+6.1.4 Configuring discreet mode (beep)�������������������������������������������������������������������������������������������������������������� 59
+6.1.5 Seat mode������������������������������������������������������������������������������������������������������������������������������������������������������������ 59
+6.2
+
+Selecting language����������������������������������������������������������������������������������������������������������������������������������������������� 59
+
+6.3
+
+Adjusting the brightness of the desk phone��������������������������������������������������������������������������������������������� 59
+
+6.4
+
+Enable screensaver and define the delay�������������������������������������������������������������������������������������������������� 60
+
+6.5
+
+Define the voicemail number�������������������������������������������������������������������������������������������������������������������������� 60
+
+6.6
+
+Programmable keys�������������������������������������������������������������������������������������������������������������������������������������������� 60
+
+6.6.1 Create a programmable key������������������������������������������������������������������������������������������������������������������������� 60
+6.6.2 Delete a key�������������������������������������������������������������������������������������������������������������������������������������������������������� 61
+6.6.3 Type of programmed key������������������������������������������������������������������������������������������������������������������������������ 61
+6.7
+
+Call pick-up������������������������������������������������������������������������������������������������������������������������������������������������������������� 63
+
+6.8
+
+Install a USB accessory (Headset, Handsfree, Loudspeaker)�������������������������������������������������������������� 63
+
+6.9
+
+Headset mode�������������������������������������������������������������������������������������������������������������������������������������������������������� 63
+
+6.10 Define time and date format��������������������������������������������������������������������������������������������������������������������������� 64
+6.11 Manage Bluetooth® device (M7)��������������������������������������������������������������������������������������������������������������������� 64
+6.11.1 Installing a Bluetooth® device��������������������������������������������������������������������������������������������������������������������� 64
+6.11.2 List connected devices����������������������������������������������������������������������������������������������������������������������������������� 64
+6.11.3 Removing a Bluetooth® accessory (headset, handset, etc.)�������������������������������������������������������������� 65
+6.11.4 Removing all Bluetooth® accessories�������������������������������������������������������������������������������������������������������� 65
+6.11.5 Edit the name of your desk phone������������������������������������������������������������������������������������������������������������ 65
+7 Contacting your administrator (technical support)����������������������������������������������������������������������������������������������� 66
+7.1
+
+Technical code / Date code������������������������������������������������������������������������������������������������������������������������������ 66
+
+7.2
+
+Software version / Display network settings (IP address)������������������������������������������������������������������ 66
+
+7.3
+
+Access to administrator configuration�������������������������������������������������������������������������������������������������������� 66
+
+7.3.1 Default password��������������������������������������������������������������������������������������������������������������������������������������������� 66
+7.3.2 Administrator settings menu����������������������������������������������������������������������������������������������������������������������� 66
+7.3.3 Web Based Management (WBM)���������������������������������������������������������������������������������������������������������������� 67
+8 Accessories��������������������������������������������������������������������������������������������������������������������������������������������������������������������������� 69
+8.1
+
+List of accessories����������������������������������������������������������������������������������������������������������������������������������������������� 69
+
+8.1.1 USB headset�������������������������������������������������������������������������������������������������������������������������������������������������������� 69
+8.1.2 Add-on module�������������������������������������������������������������������������������������������������������������������������������������������������� 69
+8.1.3 Conference module������������������������������������������������������������������������������������������������������������������������������������������ 69
+8.1.4 USB WIFI Dongle����������������������������������������������������������������������������������������������������������������������������������������������� 69
+8.2
+
+Add-on module����������������������������������������������������������������������������������������������������������������������������������������������������� 70
+
+Copyright @ALE 2020 All Right Reserved
+
+5
+
+8.2.1 install the add-on to the desk phone������������������������������������������������������������������������������������������������������� 71
+8.2.2 Install more than one add-on module������������������������������������������������������������������������������������������������������ 71
+8.2.3 Changing or updating the paper label������������������������������������������������������������������������������������������������������ 72
+8.2.4 Configure Add-on keys����������������������������������������������������������������������������������������������������������������������������������� 72
+8.3
+
+EGO Personal conference module����������������������������������������������������������������������������������������������������������������� 72
+
+8.3.1 Description���������������������������������������������������������������������������������������������������������������������������������������������������������� 73
+8.3.2 Icons displayed on the screen��������������������������������������������������������������������������������������������������������������������� 74
+8.3.3 Turning off and on������������������������������������������������������������������������������������������������������������������������������������������� 74
+8.3.4 Connect the device to the desk phone using the USB cable����������������������������������������������������������� 74
+8.3.5 Connect the device to the desk phone using Bluetooth® (compatible Bluetooth® desk
+phone)��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������� 74
+8.3.6 Using EGO Personal conference module������������������������������������������������������������������������������������������������� 75
+8.4
+
+Wall mounting kit������������������������������������������������������������������������������������������������������������������������������������������������� 76
+
+9 Technical specifications��������������������������������������������������������������������������������������������������������������������������������������������������� 77
+10 Ordering information�������������������������������������������������������������������������������������������������������������������������������������������������������� 78
+11 Guarantee and clauses����������������������������������������������������������������������������������������������������������������������������������������������������� 79
+11.1 Safety Instructions���������������������������������������������������������������������������������������������������������������������������������������������� 79
+11.2 Regulatory Statements��������������������������������������������������������������������������������������������������������������������������������������� 80
+
+Copyright @ALE 2020 All Right Reserved
+
+6
+
+1 Introduction
+Thank you for choosing an Alcatel-Lucent phone.
+This document describes the services offered by the M3, M5 and M7 DeskPhones connected to a SIP
+server.
+
+Alcatel-Lucent M5 DeskPhone (M5).
+
+Alcatel-Lucent M7 DeskPhone (M7).
+
+Alcatel-Lucent M3 DeskPhone (M3).
+The phones described in this document are supported on different SIP servers, and some features
+described in this document depend on the SIP server to which the phone is connected.
+If more information about system compatibility or about the level of features for a given SIP server
+is needed, please contact your system administrator.
+The labels and icons displayed depend on the type and the skin of the set. The label is not displayed
+if the corresponding feature is not configured on your telephone system. Depending on the size of
+the display, some labels may be truncated. All labels are displayed in color and are italicized. This icon
+describes a succession of actions or labels you have to do or select: .
+This icon describes the consequence of an action:
+
+Copyright @ALE 2020 All Right Reserved
+
+.
+
+7
+
+Some features depend on the type of the set.
+M7
+
+M5
+
+M3
+
+Multiple SIP Accounts
+Color screen
+Monochrome screen
+Adjust the brightness of the display
+Adjustable Foot
+Compatible with Bluetooth ® headset
+USB Audio HUB
+USB headset
+Wi-Fi dongle compatible*
+Two-port Gigabit Ethernet switch with Power Over Ethernet
+support
+Add-on module EM20
+Add-on module EM200
+Audio services (hands-free, handset and headset)
+Superwideband in Handfree mode
+
+Local conference
+Peer to peer SIP calls
+Web Management
+
+OpenVPN Client
+*To know the supported dongle, please refer to the Alcatel-Lucent Enterprise website or contact your
+administrator.
+The labels and icons presented in this document are not contractually binding and may be modified
+without prior warning.
+
+Copyright @ALE 2020 All Right Reserved
+
+8
+
+2 Getting started
+2.1 Unboxing
+
+Deskphone
+
+Handset
+
+Handset cord Ethernet
+
+Ethernet cable
+
+2-degree adjustable foot
+
+Safety sheet and quick user
+guide
+
+2.2 Install your desk phone
+2.2.1 Install the foot
+Clip the foot into its compartment behind the phone. Your desk phone provides a 2-degree foot.
+Depending on the way you insert the foot into the phone, your desk phone will have a different
+angle: 55° or 40°. The angle noted on the top of the foot (face up) corresponds to the angle that the
+phone will have after having inserted the foot.
+To unclip the foot, pull it straight back until it separates from the phone.
+
+Copyright @ALE 2020 All Right Reserved
+
+9
+
+A
+
+B
+
+40°/55°
+
+2.2.2 Connect the device
+Please read safety instructions first.
+Connect the handset (4) if it is not connected (your phone is usually provided with the handset
+connected).
+If your desk phone is correctly configured, you can connect it to the network (2). If your desk phone
+is not powered by PoE (Power over Ethernet), you have to plug the power adapter to the USB-C
+connector (1) and connect it to the AC power supply. The power adapter is sold separately. For more
+information, contact your installer or administrator.
+
+For more details, please consult the section: Description of the connectors.
+2.2.3 Install a comfort wired handset
+Your phone is provided with a connected handset.
+If you have to replace it:
+
+•
+
+Plug-in the wired handset to the appropriate connector
+(refer to phone description).
+
+•
+
+Make sure you position the cable correctly in the
+compartment intended for that purpose.
+
+Copyright @ALE 2020 All Right Reserved
+
+10
+
+3 Getting to know your telephone
+3.1 M7 DeskPhone
+This phone is part of the IP phone range. With its color display associated to 8 dedicated functions
+keys, and an intuitive navigation key, the M7 DeskPhone delivers excellent user experience and
+optimum conversation convenience with outstanding audio quality in either hands-free mode or
+when using the comfort handset. It supports Bluetooth 4.1 by which can connect your bluetooth
+headset and sync your mobile contact to the phone. Your phone is very easy to use thanks to its
+natural perception user interface.. It is compatible with remote working. By this way, it is perfect for
+use at your office in your enterprise or at home (remote working).
+
+3.5 inch color display.
+
+Navigation.
+
+28 vitual programmed keys: SIP account, speed
+dial, functions. Use navigation keys to navigate
+through pages of programmable keys.
+
+•
+
+Super wideband loudspeaker for optimized
+sound.
+
+•
+
+Microphone.
+
+Softkeys: menus and actions available depending
+on the selected page. Softkeys are configurable
+by the administrator.
+•
+
+Idle state: menu to access features and
+configure the phone or manage calls. Use
+the navigation keys to navigate through the
+menus.
+
+•
+
+In conversation: available actions.
+
+Permanent feature keys: quick access to the
+phone's main features.
+
+Wired handset (wide band audio quality).
+
+2-degree adjustable foot (55°,40°).
+
+LED
+Flashing blue: incoming calls, new events displayed on the screen (voice messages, missed calls).
+Blue steady: ongoing call.
+
+Copyright @ALE 2020 All Right Reserved
+
+11
+
+3.2 M5 DeskPhone
+This phone is part of the IP phone range. In addition to a color display associated to 8 dedicated
+function keys and an intuitive navigation key, the M5 DeskPhone delivers excellent user experience
+and optimum conversation convenience with an outstanding audio quality in either hands-free mode
+or when using the comfort handset. Your phone is very easy to use thanks to its natural perception
+user interface. It is compatible with remote working. By this way, it is perfect for use at your office in
+your enterprise or at home (remote working).
+
+2.8 inch color display.
+
+Navigation.
+
+28 virtual programmed keys: SIP account, speed
+dial, functions. Use navigation keys to navigate
+through pages of programmable keys.
+
+•
+
+Super wideband loudspeaker for optimized
+sound.
+
+•
+
+Microphone.
+
+Softkeys: menus and actions available depending
+on the selected page. Softkeys are configurable
+by the administrator.
+•
+
+Idle state: menu to access features and
+configure the phone or manage calls. Use
+the navigation keys to navigate through the
+menus.
+
+•
+
+In conversation: available actions.
+
+•
+
+Permanent feature keys: quick access to the
+phone's main features.
+
+Wired handset (wide band audio quality).
+
+2-degree adjustable foot (55°,40°).
+
+LED
+Flashing blue: incoming calls, new events displayed on the screen (voice messages, missed calls).
+Blue steady: ongoing call.
+
+Copyright @ALE 2020 All Right Reserved
+
+12
+
+3.3 M3 DeskPhone
+This phone is part of the IP phone range. In addition to a clear monochrome display associated to
+6 dedicated function keys and an intuitive navigation key, the M3 DeskPhone provides high audio
+fidelity for telephone calls either in hands-free mode or when using the comfort handset. Your phone
+is very easy to use thanks to its natural perception user interface. It is compatible with remote
+working. By this way, it is perfect for use at your office in your enterprise or at home (remote
+working).
+
+2.8 inch monochrome display.
+
+Navigation.
+
+20 vitual programmed keys: SIP account, speed
+dial, functions. Use navigation keys to navigate
+through pages of programmable keys.
+
+•
+
+Super wideband loudspeaker for optimized
+sound.
+
+•
+
+Microphone.
+
+Softkeys: menus and actions available depending
+on the selected page. Softkeys are configurable
+by the administrator.
+•
+
+Idle state: menu to access features and
+configure the phone or manage calls. Use
+the navigation keys to navigate through the
+menus.
+
+•
+
+In conversation: available actions.
+
+Permanent feature keys: quick access to the
+phone's main features.
+
+Wired handset (wide band audio quality).
+
+2-degree adjustable foot (55°,40°).
+
+LED
+Flashing blue: incoming calls, new events displayed on the screen (voice messages, missed calls).
+Blue steady: ongoing call.
+
+Copyright @ALE 2020 All Right Reserved
+
+13
+
+3.4 Main screen
+Your phone can support up to 8 SIP accounts.
+The main screen, composed with 4 pages, displays all programmed keys which can be a line key for a
+registered SIP account, a speed dial or other functions.
+
+Menu to access features and configure the phone or manage calls.
+Press the menu softkeys under the screen to access features. Use the up-down navigation keys to navigate
+through the menus and to select an entry or an option.
+3 dynamic keys configurable by your administrator to access features of the phone.
+Line keys associated with SIP account (optional).
+Press the line key associated with a SIP account to make a call with this account or to answer an incoming
+call to this account.
+Programmed keys.
+Press the programmed key to use the programmed function or contact.
+Long press the programmed key to enter into the key configuration.
+The 'headset' programmed by default allows you to switch to headset mode.
+Access to 4 pages.
+Use the right-left navigation keys or the '1234’ programmed key to navigate between pages. The number of
+the displayed page is highlighted.
+Date, time and status bar.
+
+Copyright @ALE 2020 All Right Reserved
+
+14
+
+3.5 Call management screen
+
+Softkeys: actions available depending on the call status. Press the softkey under the label to select the
+corresponding feature.
+SIP account in conversation.
+Incoming call and conversation presentation screen.
+
+3.6 Navigation keys
+OK key:
+Use this key to validate your choices and options while programming or configuring (short press).
+left-right navigator:
+Use to move from one page to another or to move the cursor in a text box.
+up-down navigator:
+Use to select an item on a list. When information extends over more than one page, use the down
+navigation key to display the next page. Use the up navigation key to display the previous page.
+Back/Exit key:
+Use this key to go back to the previous step.
+
+Bkspc
+
+Use this key to delete the previous input letter or number in the text box.
+
+More
+
+Open other functions.
+
+Use the up-down navigation keys to navigate through the menus and to select an entry or an
+option.
+
+Copyright @ALE 2020 All Right Reserved
+
+15
+
+3.7 Permanent features keys
+Take the call key.
+Redialing the last number dialed (long press).
+List of last numbers dialed (short press).
+Placing a call on hold.
+Recover the call on hold.
+
+Transfer a call.
+
+Add particitants to a conference call(maxim 5)
+
+Reject incoming call.
+Hang up.
+Return to the main page.
+Mute key
+During a call, press this key to stop your contact from hearing you. When activated, the key is lit red.
+Access the voice mail
+The message key flashes red when you have received a new voicemail or a missed an incoming call.
+The key stays on if there are old messages in the voicemail box.
+Press this key to open dialer in hands-free mode (idle state).
+Pressing this key answers an incoming call in hands-free mode (idle state). When a call is in progress,
+pressing this key switches from hands-free mode to headset or handset mode. When activated, the
+key is lit blue.
+Hang up in hands-free mode if the headset mode is not activated.
+Decrease the volume of the ring tone (9 steps) in idle state or when you receive an incoming call.
+Decrease the volume of the handset, loudspeaker or headset (7 steps) during a conversation.
+Increase the volume of the ring tone (9 steps) in idle state or when you receive an incoming call.
+Increase the volume of the handset, loudspeaker or headset (7 steps) during a conversation.
+
+Copyright @ALE 2020 All Right Reserved
+
+16
+
+3.8 Programmed key icons
+This table lists icons displayed on the screen when you program a key. To program a key, see
+chapter: Programmable keys. The following icons are listed when the phone is in an idle state and can
+be changed depending on the status of the phone or the contact’s phone.
+•
+
+SIP account.
+
+•
+
+Speed dial.
+
+•
+
+BLF/BLF List (Busy Lamp Field).
+
+•
+
+Hold.
+
+•
+
+Transfer.
+
+•
+
+Conference.
+
+•
+
+Recall the last number.
+
+•
+
+Do not disturb.
+
+•
+
+Directory.
+
+•
+
+Forward.
+
+•
+
+Voicemail.
+
+•
+
+Hot Desking.
+
+•
+
+Prefix.
+
+•
+
+DTMF Tone.
+
+•
+
+Direct pick up.
+
+•
+
+Group pick up.
+
+•
+
+Headset.
+
+•
+
+Group Listen.
+
+•
+
+Intercom.
+
+•
+
+Audio Hub.
+
+•
+
+XML Browser.
+
+•
+
+Phone Lock.
+
+Copyright @ALE 2020 All Right Reserved
+
+17
+
+3.9 Status icons/ Call icons
+Icons providing information about certain specific configurations on the phone or about the call
+status.
+Status icons
+Depending on the size of the display, all status icons may not be displayed simultaneously. Which icons are
+displayed depends on their priority. The following icons are listed according to their priority, from the highest to the
+lowest.
+Status icons are displayed in the top bar of the screen.
+Silent mode.
+
+Telephone locked.
+
+Headset connected.
+Handsfree connected.
+Bluetooth ® accessory paired.
+Wi-Fi enabled.
+Interphony mode (Auto answer).
+
+Do not disturb.
+Audio Hub mode
+Updating firmware in progress.
+
+The call status is also displayed at the top of the call management screen:
+•
+
+Dial: dial number.
+
+•
+
+Ringing: Incoming calls.
+
+•
+
+Conversation: In conversation.
+
+•
+
+On hold: During a conversation, the contact is on hold.
+
+•
+
+Conference: Conference mode with 2 contacts.
+
+Call icons
+Call icons are associated to a SIP account and are displayed at the level of the line key programmed in the home
+page. A text with call status is displayed in the top of the incoming call/conversation presentation screen.
+SIP account (idle state). A grayed or crossed icon means that the SIP account is not registered (Please
+contact your administrator).
+Line keys.
+
+Copyright @ALE 2020 All Right Reserved
+
+18
+
+Incoming call icon.
+Call in progress icon.
+Call on hold icon.
+
+3.10 Alpha-numeric keyboard
+Your phone is equipped with alphanumeric keyboard. You can switch between numeric keyboard to
+dial number, and alphabetic keyboard to enter text by pressing the corresponding preprogrammed
+key.
+•
+
+•
+
+Switch between the alphabetic and numeric keyboards:
+abc
+
+When you are in a text zone, you can switch to the alphabetic keyboard by selecting this
+key.
+
+123
+
+When alphabetic keyboard is activated, select this key to switch to the numeric keyboard.
+
+Enter alphabetic characters.
+The number pad keys have letters that you can display by successive presses. The number
+is the last character in the series. Some special characters can be displayed by successively
+pressing the key:
+%  $  /  ~  &  (  )  [  ]  =  *
+@  #
+space  -_  1
++  .  ,  ;  :  /  \  ?  !  0
+
+•
+•
+
+Use navigation keys to move the cursor into the text.
+Bkspc Use this key to delete the last entered character. The alphabetic mode remains
+activated.
+
+Copyright @ALE 2020 All Right Reserved
+
+19
+
+3.11 Description of the connectors
+Various connections to allow phone extensions. The type of connectors you have depends on your
+phone.
+M7, M5, M3
+
+M7
+
+1
+
+Universal Serial Bus (USB-C) connector
+This connector is used for:
+• Connect the power adapter.
+• Connect a headset.
+• Connect a PC to use the desk phone as an audio hub.
+
+2
+
+10/100/1000 Mbps Ethernet connectors to the enterprise network (LAN - RJ45).
+
+3
+
+10/100/1000 Mbps Ethernet connectors to a PC (RJ45).
+
+4
+
+Wired handset connector (RJ9).
+
+5
+
+M5
+
+M3
+
+Universal Serial Bus (USB-A) connector.
+This connector is used for:
+• Connect a USB headset.
+• Connect an add-on module(EM20/EM200).
+•
+
+Connect a Wi-Fi dongle*.
+
+* To know the supported dongle, please refer to the Alcatel-Lucent Enterprise website or contact your
+administrator.
+
+Copyright @ALE 2020 All Right Reserved
+
+20
+
+4 Using your telephone
+4.1 Information about the phone
+The main page can display all SIP accounts used on the phone and other programmed keys. For each
+SIP account used on the phone, we recommend creating a programmed key to obtain information
+about account status. The icon associated to a SIP account provides the status of the account.
+
+Information about new events such as missed calls and new voice message(s) are displayed in a
+pop-up on the main page. The message key flashes red when you have received a new voicemail or a
+missed an incoming call. When the new events pop-up is displayed, the blue LED of the phone flashes
+slowly.
+4.1.1 More information about new events
+If the new events pop-up is not displayed, click on the message key to open it.
+
+Select the event to consult.
+
+or Enter
+
+4.1.2 More information about phone status
+In idle screen, you can click “OK” key to get you’re your phone’s basic information, including your
+phone’s IP address, MAC address, software version,by clicking “More” in the screen, you also can get
+related hardware information and SIP account status.
+
+Copyright @ALE 2020 All Right Reserved
+
+21
+
+4.2 Multiple SIP accounts
+Your phone supports multiple SIP accounts. Your administrator can declare up to 8 SIP accounts. A
+default account is used for calls unless you select the relevant account prior the call. When you have
+programmed
+It is recommended to program a key for each SIP account in the main page, as a line key. Then the
+status of the account is displayed on the homepage. The key of the SIP account receiving an incoming
+call is blinking.
+
+If the homepage displays an SIP account (line key), select the SIP account to use in order
+to make the call.
+The default SIP account is marked by a green point.
+
+Forward is activated for this account.
+
+Do not Disturb is activated for this account.
+
+The call log lists all incoming and outgoing calls for all SIP accounts. The concerned SIP account is
+displayed by opening the details of the call log entry.
+
+4.2.1 Program a line key for a SIP account
+Long press on a programmable key.
+
+Switch or
+or Save
+
+Define the type of programmable key: Account
+Select the relevant account.
+Add a label.
+Save the programmable key.
+
+4.2.2 Define the default SIP account
+The phone is in idle state.
+Menu
+Features
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Features.
+
+Copyright @ALE 2020 All Right Reserved
+
+22
+
+Default Account
+
+Switch or
+or Save
+
+Use up-down and 'ok' navigation keys to select: Default Account.
+Select the default SIP account.
+
+Validate your choice.
+
+To end the settings.
+
+4.3 Making call
+This section describes how to make a call. There are different ways to open the dialer before calling
+your contact.
+
+4.3.1 Open the dailer
+Use one of the following:
+Dial directly the number for your call.
+Unhook the handset or the headset.
+
+Press the 'take the call' key.
+
+Press the loudspeaker/hands-free key.
+If the homepage displays an SIP account (line key), select the SIP account to use in order
+to make the call. This key has to be programmed in the homepage.
+
+You can unhook the handset or the headset to make a call with the handset or the headset
+otherwise you make a call in hands-free mode.
+
+4.3.2 Calling by number
+
+Open the dialer.
+Use one of the following:
+
+Copyright @ALE 2020 All Right Reserved
+
+23
+
+Dial the number.
+Select the contact to call in the list of last number dialed.
+Use one of the following:
+Press the 'take the call' key. Make the call with the active device: handset if unhooked,
+headset if connected, otherwise in hands-free mode.
+Press the OK key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+Call
+
+Press the call key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+
+# or *
+
+If defined in the phone settings, you can use these keys to initiate the call (Menu 
+Features  Key As Send).
+
+Depending on the system, after dialing the number, the call can be started automatically after a
+delay without action.
+
+When you are in hands-free mode, you can take the call at any time on the handset by unhooking it.
+Click the
+
+icon in the screen to switch the audio from hand free to headset or from the handset
+
+to headset.
+To make an external call, dial the outside line access code before dialing your contact number.
+The call will start after a timeout of approx. 10 seconds if there is no action taken after dialling.
+If you are using multiple SIP accounts on your phone, you can choose which account to use to make
+the call.
+
+4.3.3 Calling by name
+You can call a contact by his/her name using the search feature in the company directory. This
+feature depends on the system configuration. If necessary, contact your administrator. You can
+unhook the handset or the headset to make a call with the handset or the headset otherwise you
+make a call in hands-free mode.
+Use the alpha-numeric keyboard key to switch between the numeric and alphabetic keyboard.
+Open the dialer.
+abc
+
+abc Switch to the alphabetical keyboard.
+Enter the first letters of your contact's name.
+The search runs as soon as you enter a character (predictive search). The matching names
+are displayed.
+Use UP/Down key to select the contact you want to call.
+
+Use one of the following:
+
+Copyright @ALE 2020 All Right Reserved
+
+24
+
+Press the 'take the call' key. Make the call with the active device: handset if unhooked,
+headset if connected, otherwise in hands-free mode.
+Press the OK key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+Call
+
+Press the call key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+
+# or *
+
+If defined in the phone settings, you can use these keys to initiate the call (Menu 
+Features  Key As Send).
+
+4.3.4 Call from call log
+You can call back a contact from the call log.
+You can unhook the handset or the headset to make a call with the handset or the headset otherwise
+you make a call in hands-free mode.
+In idle state or from the dialer:
+History
+
+Select this softkey to open call logs from the homepage or the dialer.
+Use UP/Down key to select the contact you want to call.
+
+Use one of the following:
+Press the 'take the call' key. Make the call with the active device: handset if unhooked,
+headset if connected, otherwise in hands-free mode.
+Press the OK key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+Call
+
+Press the call key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+
+# or *
+
+If defined in the phone settings, you can use these keys to initiate the call (Menu 
+Features  Key As Send).
+
+If you are using multiple SIP accounts on your phone, the call back is made with the SIP account
+displayed in the call log.
+
+4.3.5 Calling using your personal directory
+You can unhook the handset or the headset to make a call with the handset or the headset otherwise
+you make a call in hands-free mode.
+In idle state or from the dialer:
+Directory
+
+Select this softkey to open your local directory from the homepage or the dialer.
+Open a directory (depending on model).
+
+Select the contact to call.
+Use one of the following:
+
+Copyright @ALE 2020 All Right Reserved
+
+25
+
+Press the 'take the call' key. Make the call with the active device: handset if unhooked,
+headset if connected, otherwise in hands-free mode.
+Press the OK key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+Call
+
+Press the call key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+
+# or *
+
+If defined in the phone settings, you can use these keys to initiate the call (Menu 
+Features  Key As Send).
+
+If you are using multiple SIP accounts on your phone, you can choose which account to use to make
+the call.
+4.3.6 Calling using speed dial key
+You can pre-define the speed dial by long pressing hard key around the LCD,in “Programmable Key”
+setting page, choosing “Speed Dial” as Key Type, inputting related content for different field like
+Account, Label,number.
+Select the key associated with the contact to call.
+
+The SIP account used to make the call depends on the speed-dial key configuration.
+4.3.7 Making a peer to peer SIP call
+Your phone is compatible with the peer to peer SIP call. It is able to call phones connected to the
+same local network. You can call your contact by entering the IP address of your contact's desk
+phone.
+Make the call with the headset if connected, or in hands-free mode.
+Open the dialer.
+Use one of the following:
+Press the call key. Make the call with the active device: handset if unhooked, headset if
+connected, otherwise in hands-free mode.
+Press the OK key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+Call
+
+Press the call key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+
+# or *
+
+If defined in the phone settings, you can use these keys to initiate the call (Menu 
+Features  Key As Send).
+
+The format of the entered IP address must be x.x.x.x or x*x*x*x where x is a decimal value between 0
+and 255.
+This feature is useful when you have no connection to a communication server (no registration,
+network problems, etc.). Not all the features are available should this occur and the phone's status
+should be displayed on the screen. This feature can be deactivated by your administrator.
+Copyright @ALE 2020 All Right Reserved
+
+26
+
+4.4 Receiving a call
+When receiving a call, you can:
+
+Lift the handset to take the call.
+
+Press the headset icon to to take the call in headset mode.
+Press the loudspeaker/hands-free key to take the call in hands-free mode.
+
+Press the blinking line key associated with the SIP account receiving the call.
+Take the call with the headset if connected, or in hands-free mode.
+
+Take call or
+
+Deflect the call to your voicemail.
+
+or Reject call
+Silent
+
+Mute the ringer (the call is still incoming but the phone no longer rings).
+Deflect the call to another contact:
+Use one of the following:
+• Using the up and down navigator (if necessary), find the contact to call.
+• Enter the number or name of the contact to whom the call will be deflected.
+
+Deflect
+
+Deflect the call to the selected contact.
+
+4.5 Switching between audio modes
+During the conversation, you can switch between different audio modes (handset, hands-free or
+headset, if connected) by pressing the loudspeaker/hands-free key or headset icon. This feature
+depends on connected devices. The key is lit when the loudspeaker or hands-free mode is selected.
+•
+
+You are in conversation with the handset, you can switch between following audio modes by
+pressing on the loudspeaker/hands-free key.
+
+Handset
+
+•
+
+press
+
+Handsfree
+
+press
+
+Handset
+
+You are in conversation with the headset (headset or headset+loudspeaker), you can switch
+between following audio modes by short pressing on the loudspeaker/hands-free key.
+
+Handset
+
+press
+
+Handsfree
+
+Copyright @ALE 2020 All Right Reserved
+
+Hook off
+
+Handset
+
+press
+
+Handset
+
+27
+
+•
+
+You can switch to loudspeaker (group listening mode with handset) when in conversation by
+pressing the group listening programmable key. First you have to create a group listening
+programmable key (see chapter: Programmable keys).
+In
+conversation
+
+deactivate
+loudspeaker
+Short press
+
+Loudspeaker
+
+Short press
+
+For each audio mode, during the conversation, you can adjust the volume by pressing the volume
+keys. The number of levels depends on the audio mode (8 for handset and headset 10 for handsfree
+and loudspeaker). The selected volume, for each audio mode, will be saved for future conversations.
+•
+
+During a conversation.
+
+•
+
+Adjust volume by pressing the volume keys.
+
+4.6 Redialing
+4.6.1 Call back the last number dialed
+long press: redialing the last number dialed.
+
+4.6.2 Call back one of the last numbers dialed
+Short press: list of last numbers dialed.
+
+Select one of the last numbers dialed.
+Use one of the following:
+Press the 'take the call' key. Make the call with the active device: handset if unhooked,
+headset if connected, otherwise in hands-free mode.
+Press the OK key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+Call
+
+Press the call key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+
+Copyright @ALE 2020 All Right Reserved
+
+28
+
+4.7 Contacts management
+4.7.1 Contact card
+A contact card can be opened from your local directory.
+
+Directory
+
+Select this softkey to open your directory(-ies).
+Open a directory (depending on model).
+
+Select a contact.
+More  Detail
+
+Open the contact card.
+Use the up-down navigation keys to scroll the page.
+
+The contact card displays information about the contact.
+•
+
+Avatar: select an avatar for your contact by using right-left navigation keys.
+
+•
+
+First name: first name of your contact.
+
+•
+
+Last name: last name of your contact.
+
+•
+
+Office: office number.
+
+•
+
+Mobile: Mobile number.
+
+•
+
+Other: Other number.
+
+•
+
+Account: If you are using multiple SIP accounts, define which account is used to call this
+contact.
+
+•
+
+Group: Define the group to which this contact belongs in order to make it easier to find.
+
+From this page, you can:
+Modify information about your contact (avatar, name, add new number, etc.). Use the
+updown navigation keys to edit a field.
+
+Copyright @ALE 2020 All Right Reserved
+
+29
+
+4.7.2 Contacts management
+
+Your phone lets you manage contacts in your local directory. With the M7 DeskPhone, you can import
+contacts from your mobile phone to a specific directory (External Directory).
+The directory is accessible from the homepage dynamic key or from the menu.
+Use one of the following:
+Directory
+Menu  Directory
+
+If configured, use the dynamic key from the home page to access to the directory(-ies)
+directly.
+Select this softkey to open your directory(-ies).
+
+In this user manual, we are using the dynamic key to access directory(-ies).
+
+Directory
+
+Local Directory
+
+External Directory
+
+Select this softkey to open your directory(-ies).
+Depending on the model of your phone, your directory is composed of the local directory
+containing all contacts created on the phone and an external directory containing all
+imported contacts from your mobile phone (M7).
+Open the local directory.
+Your local directory has displayed all saved contacts and groups. A group contains all
+contacts belonging to this group (defined in the contact card of the contact).
+Open the external directory. The external directory is only available on the M7
+DeskPhone.
+Your external directory lists all contacts imported from your mobile phone via Bluetooth®.
+
+From this page, you can:
+Search
+
+Search a contact in all directories and groups.
+
+Add
+
+Create a new contact.
+
+Delete
+
+Delete the selected contact.
+
+More
+
+Access more features.
+
+Call
+
+Call the selected contact.
+
+Detail
+
+Open the contact card.
+
+Delete all
+
+Delete all contacts in a directory.
+
+AddGrp
+
+Add a new group.
+
+Enter
+
+List contacts in the selected directory or group.
+
+Back
+
+Return to the main page.
+
+Copyright @ALE 2020 All Right Reserved
+
+30
+
+4.7.3 Call your contact
+Directory
+
+Select this softkey to open your directory(-ies).
+
+Use one of the following:
+Search
+
+Search a contact in all directories and groups.
+Open a directory (depending on model).
+
+To call your contact:
+Select the contact to call.
+First method
+More
+
+Access more features.
+
+Call
+
+Start the call.
+
+Second method
+Start the call.
+
+If there are several numbers for the same contact, select the desired number.
+Select the desired number.
+or Call
+
+Start the call.
+
+4.7.4 Create a new contact in your local directory
+Directory
+Local Directory
+Add
+
+Select this softkey to open your directory(-ies).
+Open the local directory.
+Use the up-down navigation keys to switch from one input field to another.
+•
+•
+
+Switch or
+
+•
+
+Avatar: choose a predefined avatar.
+Account: if you are using multiple SIP accounts, define which account is used to call
+this contact. The default SIP account is selected by default.
+Group: define the group to which this contact belongs in order to make it easier to find.
+The group 'All contacts' is selected by default.
+
+<Abc>
+
+•
+•
+
+First name: enter first name of your contact.
+Last name: enter last name of your contact.
+
+<123>
+
+•
+•
+•
+
+Office: enter the office number of your contact.
+Mobile: Enter the mobile number of your contact.
+Other: Enter another number.
+
+or Save
+
+Your contact is added to the directory.
+
+Other method:
+•
+
+Add a contact from the history.
+
+For external numbers, we recommend you use canonical address formats comprising '+', followed by
+the country code (e.g. '33') then the number without the first digit. For example, for 0390670000,
+enter the number +3390670000. To get the '+' sign, long press on the '0' key. This example is for
+calling a number in France from another country.
+
+Copyright @ALE 2020 All Right Reserved
+
+31
+
+4.7.5 Create a new group
+Directory
+Local Directory
+AddGrp
+<Abc><123>
+or Save
+
+Select this softkey to open your directory(-ies).
+Open the local directory.
+Use the up-down navigation keys to switch from one input field to another.
+Enter the name of the group.
+Your contact is added to the directory.
+
+4.7.6 Modify a contact
+Directory
+Local Directory
+
+Select this softkey to open your directory(-ies).
+Open the local directory.
+Select the contact to modify.
+
+More
+
+Access more features.
+
+Detail
+Fill in the contact file. Use up-down navigation keys to edit a field.
+or Save
+
+To save the contact in the local directory.
+
+4.7.7 Delete a contact in a directory
+Directory
+
+Select this softkey to open your directory(-ies).
+Open a directory (depending on model).
+
+Use the up-down navigation keys to select the contact to delete.
+Delete
+or Ok
+
+Confirm the deletion.
+
+4.7.8 Delete all contacts in a directory
+Directory
+Local Directory
+
+Select this softkey to open your directory(-ies).
+Open the local directory.
+Use the up-down navigation keys to select a contact.
+
+More
+
+Access more features.
+
+Delete all
+or Ok
+
+Confirm the deletion
+
+4.7.9 Delete a group in the local directory
+Directory
+Local Directory
+Group
+
+Select this softkey to open your directory(-ies).
+Open the local directory.
+Access to all defined group(s).
+
+Copyright @ALE 2020 All Right Reserved
+
+32
+
+Select the group to delete.
+Delete
+or Ok
+
+Access to all defined group(s).
+Confirm the deletion.
+
+4.7.10 Delete all group in the local directory
+Directory
+
+Select this softkey to open your directory(-ies).
+
+Group
+Select the group to delete.
+Delete all
+or Ok
+
+Confirm the deletion.
+
+4.7.11 Import contacts from your mobile phone via Bluetooth® (M7)
+To import a contact from your mobile phone you have to pair it to your desk phone.
+Before performing the pairing operation, the device must be in detectable mode. Consult the user
+documentation of your Bluetooth® device.
+The phone is in idle state.
+Menu
+Basic Setting
+Bluetooth
+
+Scan
+
+Connect
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Bluetooth.
+Press the softkey under the following label: Scan.
+Scanning starts.
+Searching for Bluetooth® equipment. Wait for the detected equipment type and address to
+be displayed.
+Add the device by pressing on the associated key: Connect.
+Enter the PIN code of the device if necessary.
+
+This icon is displayed on your desk phone:
+
+.
+
+Depending on your mobile phone, you have to accept to share contacts either during pairing or in
+connection options. Consult the user manual of your mobile phone.
+The contacts are automatically imported into the directory: External Directory.
+Contacts are kept until another mobile is connected to the M7 or if you delete all imported contacts
+manually.
+If necessary, you can manually synchronize contacts:
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Basic Setting
+
+Use up-down and 'ok' navigation keys to select: Directory.
+
+Bluetooth
+
+Use up-down and 'ok' navigation keys to select: Bluetooth.
+
+Copyright @ALE 2020 All Right Reserved
+
+33
+
+Paired Bluetooth Device
+
+Use up-down and 'ok' navigation keys to select: Paired Bluetooth Device.
+The paired device is listed.
+Select your connected mobile phone.
+
+More Enter > Sync BT
+Contacts
+
+Use up-down and 'ok' navigation keys to select: Sync BT Contacts.
+Synchronize the contacts.
+
+4.8 Manage the call log (History)
+The call log can be consulted and managed when the phone is in the idle state. The main part of the
+screen is used to display the call log.
+
+The call log (history) is accessible from the homepage dynamic key or from the menu.
+Use one of the following:
+History
+Menu  History
+
+If configured, use the dynamic key from the home page to access to the call log directly.
+Use the menu key to access the call log.
+
+In this user manual, we are using the dynamic key to access the call log.
+All call logs associated with the selected contact are displayed with an icon showing the type of call.
+Answered incoming calls.
+
+Unanswered incoming calls.
+
+Unanswered incoming call that has been acknowledged.
+
+Answered outgoing calls.
+
+Unanswered outgoing calls.
+
+Copyright @ALE 2020 All Right Reserved
+
+34
+
+Actions are available from the call log:
+Delete
+
+Delete the selected entry. Note that no confirmation is requested.
+
+Call
+
+Call the selected contact.
+
+More
+
+Access more features.
+
+or Detail
+
+Open information about the contact: name, number, time, relevant SIP account, duration.
+
+Delete all
+
+Delete the entire log associated with the selected contact. Note that no confirmation is
+requested.
+
+Missed
+
+Display missed calls only.
+
+AddDir
+
+Add the contact in your local directory. If the contact already exists, the contact card is
+edited.
+
+Back
+
+Return to the main page.
+
+4.8.1 Call the contact
+History
+
+Select this softkey to open call logs from the homepage or the dialer.
+Select the contact to call.
+
+Use one of the following:
+Press the 'take the call' key. Make the call with the active device: handset if unhooked,
+headset if connected, otherwise in hands-free mode.
+Press the OK key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+Call
+
+Press the call key to start the call. Make the call with the active device: handset if
+unhooked, headset if connected, otherwise in hands-free mode.
+
+4.8.2 Display missed calls only
+History
+
+Select this softkey to open call logs from the homepage or the dialer.
+
+Missed
+
+Press this key to display missed calls only.
+
+4.8.3 Delete a contact in the call log
+History
+
+Select this softkey to open call logs from the homepage or the dialer.
+Select the contact to delete.
+
+Delete
+
+Delete the selected entry. Note that no confirmation is requested.
+
+4.8.4 Clear the call log
+History
+
+Select this softkey to open call logs from the homepage or the dialer.
+
+More
+
+Access more features.
+
+Delete all
+
+or Ok
+
+Confirm the deletion.
+
+If you are using multiple SIP accounts on your phone, the concerned SIP account is displayed for
+each entry of the call log (
+
+or Detail).
+
+Copyright @ALE 2020 All Right Reserved
+
+35
+
+4.9 Speed dial management
+Speed dial lets you manage favorite contacts. You can create speed dial keys by programming keys
+from the homepage.
+
+4.9.1 Create a speed dial key
+Use one of the following:
+Long press on a free programmable key.
+Menu -> Features ->
+Programmable Key
+
+Use up-down and 'ok' navigation keys to select: Programmable Key.
+
+Create a speed dial key.
+Switch or
+Account
+<123><Abc>
+
+or Save
+
+Define the type of programmable key: Speed dial.
+Associate a SIP account to use to make the call.
+Enter the number and its label.
+Save the speed dial key.
+
+4.9.2 Make call using speed dial
+Select the key associated with the contact to call.
+
+4.10 Sending DTMF signals
+During a conversation you sometimes have to send DTMF signals, such as with a voice server, an
+automated attendant or a remotely consulted answering machine.
+Enter DTMF code.
+
+To activate or deactivate DTMF mode
+The phone is in idle state.
+Menu
+Basic Setting
+Sound
+DTMF Tone
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Sound.
+Use up-down and 'ok' navigation keys to select: DTMF Tone.
+
+Copyright @ALE 2020 All Right Reserved
+
+36
+
+Switch or
+
+or Save
+
+To activate or deactivate DTMF mode.
+Validate your choice.
+To end the settings.
+
+4.11 Mute, so that your contact cannot hear you
+You can hear your contact but he/she cannot hear you:
+During a conversation.
+Disable microphone
+
+the key lights up.
+
+Resume the conversation
+
+the key is no longer lit.
+
+4.12 Auto answer
+In the auto answer mode, calls are automatically answered.
+Activate the auto answer:
+The phone is in idle state.
+Menu
+Features
+Auto answer
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Features.
+Use up-down and 'ok' navigation keys to select: Auto answer.
+Select the SIP account. All incoming calls to this SIP account will be auto answer.
+
+Switch or
+
+or Save
+
+Enable the auto answer.
+Save the setting.
+This icon is displayed in the status bar.
+
+4.13 Make an intercom call
+When you make an intercom call, the call is automatically picked-up by your contact, if intercom is
+enabled on your contact’s phone. The ring tone will then be different.
+To make an intercom call, you have to create a programmed key: Intercom.
+○○ Account: select the relevant SIP account.
+
+○○ Label: enter the label of the key, displayed on the home page.
+○○ Value: Enter the contact number to call.
+
+Copyright @ALE 2020 All Right Reserved
+
+37
+
+4.14 Configure the intercom incoming calls
+When you receive an intercom call, the desk phone automatically answers the call if you have
+authorized the option. You can manage your desk phone behavior when you receive an intercom call.
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Features
+
+Use up-down and 'ok' navigation keys to select: Features.
+
+Intercom
+
+Use up-down and 'ok' navigation keys to select: Intercom.
+Select the SIP account. All incoming calls to this SIP account will be auto answer.
+
+Switch or
+
+or Save
+
+•
+•
+•
+•
+
+Allow: enable/disable intercom call.
+Mute: enable/disable mute.
+Tone: enable/disable tone.
+Barge: enable/disable barge.
+
+Save the setting.
+
+4.15 Change PIN code
+The PIN code is requested to unlock the phone.
+The default PIN code is: 0000.
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Basic Setting
+
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+
+Change PIN
+
+Use up-down and 'ok' navigation keys to select: Change PIN.
+Enter current PIN code.
+Enter the new PIN code.
+Confirm new PIN code.
+
+or Save
+
+Save the setting.
+To end the settings.
+
+4.16 Lock / unlock your telephone
+Enable the phone lock.
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Basic Setting
+
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+
+Phone Lock
+
+Use up-down and 'ok' navigation keys to select: Phone Lock.
+
+Copyright @ALE 2020 All Right Reserved
+
+38
+
+Enable the option: Lock Enable.
+
+Switch or
+
+To end the settings.
+
+To lock/unlock your desk phone, you have to create a programmed key: Phone Lock.
+○○ Label: enter the label of the key, displayed on the home page.
+4.16.1 Lock your phone
+Select the lock/unlock programmed key.
+
+Ok /
+
+Validate your choice.
+Your phone is locked. A lock page is displayed.
+
+You can only call emergency numbers, such as 'Operator' or 'Guard', once the phone is locked (max
+3 numbers, configured by the administrator).
+
+4.16.2 Unlock your phone
+Unlocking your phone. Your password is required to unlock the phone (the default PIN
+code is: 0000).
+
+4.16.3 Activate or deactivate the automatic keypad lock
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Basic Setting
+
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+
+Phone Lock
+
+Use up-down and 'ok' navigation keys to select: Phone Lock.
+
+Switch or
+
+Enable the option: Auto Lock Enable.
+Enter the timeout without activity before the keylock (seconds).
+
+or Save
+
+Validate your choice.
+To end the settings.
+
+Copyright @ALE 2020 All Right Reserved
+
+39
+
+4.17 During conversation
+
+Actions available during conversation:
+End
+
+End the call.
+
+Hold
+
+Placing a call on hold.
+
+Transfer
+
+Transfer a call.
+
+Retrieve
+
+Retrieve a call (on hold, parked).
+
+New
+
+Make a second call when the first is on hold.
+
+Swap
+
+Switching between calls.
+
+Conf
+
+Establishing a three-party conference call.
+
+End conf
+
+End the conference with all participants
+
+4.18 Making a second call during a conversation
+During a conversation.
+Hold
+
+Your first call is placed on hold.
+
+New
+
+A dial area and the call log are displayed.
+
+Use one of the following:
+Enter the number.
+Select a contact in the call log.
+
+Directory
+
+or Call
+
+<abc> 
+
+or Call
+
+Call a contact from the local directory.
+Call your contact using the dial-by-name function.
+Select the 'Redial' function.
+
+Copyright @ALE 2020 All Right Reserved
+
+40
+
+4.19 Answering a second call during a conversation
+As long as the call is presented, you can also choose to deflect the call.
+During a conversation, another person is trying to call you. Your are alerted with 3 beeps.
+The identily of the caller is displayed as long as the call is presented on your phone. The
+key in front of the SIP account receiving the call is blinking.
+Use one of the following:
+Press the blinking line key associated with the SIP account receiving the call.
+
+Take call or
+or Reject call
+Silent
+
+Take the call with the headset if connected, or in hands-free mode.
+
+Deflect the call to your voicemail.
+Mute the ringer (the call is still incoming but the phone no longer rings).
+Deflect the call to another contact:
+Use one of the following:
+
+Deflect
+
+Using the up and down navigator (if necessary), find the contact to call.
+Enter the number or name of the contact to whom the call will be deflected.
+Deflect the call to the selected contact.
+
+4.20 To cancel your second call and recover the first
+You are in conversation with the second contact and the first one is on hold.
+Use one of the following:
+You or the second contact hangs up.
+End
+
+Press the softkey under the following label: End.
+
+Recover the call on hold:
+Retrieve
+
+Press the softkey under the following label: Retrieve. You are on the line with your first
+contact.
+
+4.21 Placing a call on hold (hold)
+During a conversation, you wish to place the call on hold and recover it later, on the same telephone.
+Place the call on hold:
+
+Copyright @ALE 2020 All Right Reserved
+
+41
+
+Use one of the following:
+Press the hold key.
+Hold
+
+Press the softkey under the following label: Hold.
+
+Recover the call on hold:
+Use one of the following:
+Press the hold key.
+Retrieve
+
+Press the softkey under the following label: Retrieve.
+Press the dedicated account key with call-on-hold icon.
+
+4.22 Switching between calls (Broker call)
+During a conversation, a second call is on hold.
+Use one of the following:
+Swap
+
+Press the softkey under the following label: Swap.
+Press the hold key.
+
+Press the dedicated account key with call-on-hold icon.
+
+You can talk to the first caller and the second one is on hold.
+
+4.23 Transferring a call
+4.23.1 To transfer a call to another contact on hold
+During a conversation, a second call is on hold.
+Use one of the following:
+Press the transfer key
+Transfer
+
+the two callers are connected.
+
+Press the softkey under the following label: Transfer
+
+the two callers are connected.
+
+4.23.2 To transfer your call to another number
+During a conversation.
+Use one of the following:
+Press the transfer key
+
+Copyright @ALE 2020 All Right Reserved
+
+the first call is on hold.
+
+42
+
+Transfer
+New ->
+
+or Call
+
+Press the softkey under the following label: Transfer
+
+the first call is on hold.
+
+Call the recipient of the transfer using the dial a number or dial by name feature or the
+call log or local directory.
+Your contact answers.
+
+Use one of the following:
+Press the transfer key
+Transfer
+
+the two callers are connected.
+
+Press the softkey under the following label: Transfer
+
+the two callers are connected.
+
+Transfer between two outside calls is not generally possible (depends on country concerned and
+system configuration).
+
+4.23.3 Blind transfer
+You can also transfer your call immediately, without having to wait for your contact to answer.
+During a conversation.
+Use one of the following:
+Press the transfer key
+Transfer
+New ->
+
+or Call
+
+B transt
+
+the first call is on hold.
+
+Press the softkey under the following label: Transfer
+
+the first call is on hold.
+
+Call the recipient of the transfer using the dial a number or dial by name feature or the
+call log or local directory.
+Before your contact answers the call, select B transf
+
+the two callers are connected.
+
+Transfer between two outside calls is not generally possible (depends on country concerned and
+system configuration).
+
+4.24 Three-way conference
+During a conversation, a second call is on hold.
+Use one of the following:
+Press the conference key
+Conf
+
+you are in conference mode.
+
+Press the softkey under the following label: Conf
+
+you are in conference mode.
+
+4.24.1 End the conference with all participants
+You are in conference mode.
+Use one of the following:
+Press the on-hook key
+End conf
+
+the conference is ended.
+
+Press the softkey under the following label: End conf
+
+Copyright @ALE 2020 All Right Reserved
+
+the conference is ended.
+
+43
+
+4.24.2 After the conference, to leave your two contacts talking together
+You are in conference mode.
+Use one of the following:
+Press the transfer key
+
+Transfer
+
+the two participants remain on the call together.
+
+Press the softkey under the following label: Transfer
+call together.
+
+the two participants remain on the
+
+4.25 Five-way conference with internal contacts) (M7, M5)
+This feature is available only for the following device: M7 DeskPhone, M5 DeskPhone.
+You are in three-way conference call.
+Use one of the following:
+Press the hold key.
+Hold
+
+New ->
+
+Press the softkey under the following label: Hold.
+
+or Call
+Join
+
+Call a new participant by using the dial a number or dial by name feature or the call log or
+local directory.
+You are in conversation with the new participant.
+The new participant is joining the conference call.
+
+When the maximum of participants is reached, you will not be able to make a new call to add a new
+participant.
+
+4.25.1 End the conference with all participants
+You are in conference mode.
+Use one of the following:
+Press the on-hook key
+End conf
+
+the conference is ended.
+
+Press the softkey under the following label: End conf
+
+the conference is ended.
+
+If you are a participant (you did not initiate the conference call), you can exit the conference by
+pressing the on-hook key.
+
+Copyright @ALE 2020 All Right Reserved
+
+44
+
+4.26 Hide your phone number
+you can choose to hide your identity when calling.
+The phone is in idle state.
+Menu
+Features
+Anonymous
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Features.
+Use up-down and 'ok' navigation keys to select: Anonymous.
+Select the SIP account whose phone number will be hidden.
+
+Switch or
+
+or Save
+
+Enable the option: Anonymous
+Validate your choice.
+To end the settings.
+
+your identity will be hidden.
+
+4.27 Reject anonymous calls
+The phone is in idle state.
+Menu
+Features
+Anonymous rejection
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Features.
+Use up-down and 'ok' navigation keys to select: Anonymous rejection.
+Select the SIP account to reject anonymous calls.
+
+Switch or
+
+or Save
+
+Enable the option: Anonymous rejection.
+Validate your choice.
+To end the settings.
+
+4.28 Do not disturb
+You can make your terminal temporarily unavailable for all calls.
+The phone is in idle state.
+Menu
+Features
+DND
+Switch or
+
+or Save
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Features.
+Use up-down and 'ok' navigation keys to select: DND.
+Enable the option: DND.
+Validate your choice.
+To end the settings.
+
+Copyright @ALE 2020 All Right Reserved
+
+45
+
+To deactivate the Do not disturb feature, follow the same procedure.
+To have a direct access to this feature, program a key on the home page (see chapter:
+Programmable keys).
+From the Web Management, it is possible to enable/disable the feature for all accounts declared on
+the phone (the administrator password of the phone is requested).
+
+4.29 Forwarding to a number
+When you are absent or already in communication (all lines are busy), all your calls are forwarded to
+the defined number. You can define a programmed key to activate forward.
+The phone is in idle state.
+Menu
+Features
+Call Forward.
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Features.
+Use up-down and 'ok' navigation keys to select: Call Forward.
+
+Select the type of call forwarding required
+Always Forward
+
+All your calls are immediately forwarded to another number.
+
+Busy Forward
+
+All your calls are forwarded to another number when you are already on the line.
+
+No Answer Forward
+
+Switch or
+Forward To
+
+or Save
+
+All your calls are forwarded to another number when you cannot answer.
+
+Activate the forward.
+Enter the destination number.
+Validate your choice.
+To end the settings.
+
+To have a direct access to this feature, program a key on the home page (see chapter: Programmable
+keys).
+We recommend using programmed key on the home page to find the status of the phone easily. If a
+feature is activated, the corresponding key is lights up.
+From the Web Management, it is possible to enable/disable the feature for all accounts declared on
+the phone (the administrator password of the phone is requested).
+
+4.30 Cancelling all forwards
+If you are using a programmed key, just press it.
+The phone is in idle state.
+Menu
+Features
+Call Forward.
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Features.
+Use up-down and 'ok' navigation keys to select: Call Forward.
+
+Copyright @ALE 2020 All Right Reserved
+
+46
+
+Select the type of call forwarding to cancel.
+Always Forward
+
+All your calls are immediately forwarded to another number.
+
+Busy Forward
+
+All your calls are forwarded to another number when you are already on the line.
+
+No Answer Forward
+
+Switch or
+
+or Save
+
+All your calls are forwarded to another number when you cannot answer.
+
+Deactivate forward.
+Validate your choice.
+To end the settings.
+
+4.31 Listen to your voicemail
+This feature depends on the system configuration. If necessary, contact your administrator.
+The message key flashes when you have received a new voicemail or if you have missed calls.
+Press the messaging key. Number of messages received is displayed.
+X new voice message(s)
+
+Use up-down and 'ok' navigation keys to access voicemail.
+The number of new messages is displayed for each registered account.
+Select the relevant account.
+
+or Enter
+
+Call your voicemail.
+Follow the instructions from the voicemail server.
+
+You can use the menu to access voicemail: Menu  Voicemail  View Voicemail.
+
+4.32 Defining a 'hotline' number
+If configured, the 'hotline' number is dialed immediately or after a time delay when you take the
+line by picking up the handset, by pressing the hands-free button or pressing the call button of the
+headset.
+To configure the 'hotline' number:
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Features
+
+Use up-down and 'ok' navigation keys to select: Features.
+
+Hotline
+
+Use up-down and 'ok' navigation keys to select: Hotline.
+
+Number
+
+enter the number of the 'hotline'.
+
+Delay
+
+Enter the time delay in seconds before the 'hotline' number is dialed, if no action is
+performed during this time (0 – 10s). The 'hotline' number is immediately dialed if the
+delay time is set to 0s.
+
+Switch or
+
+Enable the feature.
+
+Copyright @ALE 2020 All Right Reserved
+
+47
+
+or Save
+
+Validate your choice.
+To end the settings.
+
+Follow the same procedure to deactivate the feature.
+This feature can be configured via the Web Management.
+
+Copyright @ALE 2020 All Right Reserved
+
+48
+
+5 Do more with your desk phone
+Your desk phone is designed to evolve with its environment. It can do more than just establish
+communication between people or keep in touch with your contacts, your enterprise.
+This chapter describes some use-cases with your phone.
+
+5.1 Use your desk phone as a USB audio hub for your computer
+Your phone can be used as an external audio playback/recording device for your personal computer
+(PC). Use the hands-free mode of your desk phone with applications such as Rainbow, OpenTouch
+Conversation for PC, Skype, etc. Or you can simply listen to music with an outstanding audio
+performance.
+
+5.1.1 Installation
+5.1.1.1 Prerequisites
+Before using your DeskPhone as a USB audio hub for your computer, make sure your computer meets
+the minimum hardware and software requirements:
+The lists below are for information only and are not contractual. Contact your administrator if
+necessary.
+•
+
+The supported operating systems are:
+Windows
+
+7 (32-bit or 64 bit)
+8 (32-bit or 64 bit)
+8.1 (32-bit or 64 bit)
+10 (32-bit or 64 bit)
+
+Mac OS X
+10.9 (Maverick)
+10.10 (Yosemite)
+10.11 (El Capitan)
+10.12 (Sierra),
+10.13 (High Sierra),
+10.14 (Mojave),
+10.15 (Catalina)
+
+Copyright @ALE 2020 All Right Reserved
+
+Linux
+Compatible with most Linux
+distributions.
+
+49
+
+•
+
+USB connector: we recommend a USB 3.0 port (USB 2.0 or 1.0 port can reduce performance).
+
+•
+
+We recommend using the latest version of audio applications or web browser.
+
+5.1.1.2 Connect your computer to your desk phone
+You can use a USB-A or USB-C connectors of the DeskPhone to connect the PC. A stand-alone USB
+cable is not provided with your set.
+•
+
+Configure your desk phone to use it as an audio hub.
+
+The phone is in idle state.
+Menu
+Basic Setting
+Usb
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Usb.
+Select the USB port you are using to connect the PC (USB-A, USB-C).
+
+Switch or
+
+or Save
+
+Select the mode: Slave.
+Validate your choice.
+To end the settings.
+
+•
+
+Create the programmable key: Audio Hub (see chapter: Programmable keys). The
+programmable key allows you to control the audio on the phone (pause, play). As long as the
+PC is not connected, the following icon is displayed in front of the programmable key and on
+the status bar:
+
+•
+
+.
+
+Connect your computer to the USB-A or USB-C connector of your desk phone with the USB
+cable (not provided). The phone is recognized as a sound device on computer (for example
+'Echo cancelling speakerphone' with Windows). The following icon is displayed in front of the
+programmable key and on the status bar:
+
+.
+
+5.1.1.3 Set the default audio device for Windows
+In most cases, your desk phone is ready to be used when
+connected to your computer. However, it is sometimes
+necessary to manually configure the playback and
+recording default device. The configuration depends on the
+operating system of the connected computer. Consult the
+user manual of the operating system of your computer.
+5.1.1.3.1 Windows
+•
+
+Open the sound control panel from the Windows
+configuration panel or the sound icon in the
+Windows notification area.
+
+•
+
+In the 'Playback' tab: Select your desk phone as the
+default device.
+
+Copyright @ALE 2020 All Right Reserved
+
+50
+
+•
+
+In the 'Recording’ tab: select your desk phone as
+the default device, if you are using the hands-free
+mode of your desk phone with communication
+applications such as Rainbow, OpenTouch
+Conversation for PC, for example.
+
+•
+
+Activating/Deactivating the sounds
+
+If you set your desk phone as the default audio device,
+all of the sounds from your computer are played on your
+desk phone, like notifications.
+1. Activating/Deactivating the sounds.
+2. Apply.
+Consult the user manual of the operating system of your
+computer.
+
+Copyright @ALE 2020 All Right Reserved
+
+51
+
+5.1.1.3.2 Mac OS 10.9 and above
+•
+
+Open System Preferences -> Sound.
+
+•
+
+Select your desk phone in output and input tabs:
+
+5.1.2 Using your phone as an audio hub
+When audio starts playing on the PC, it will also be played on the phone.
+The audio hub programmable key lets you control the playback:
+The audio is playing on the phone.
+Pause the audio by pressing the programmable key.
+Play/resume the audio by pressing the programmable key.
+
+The volume can be adjusted on the phone by using volume keys or via the PC.
+You can use the hands-free mode of your desk phone with communication applications such as
+Rainbow, for example.
+The audio is paused when you receive an incoming call or perform any other operation on the phone
+that is not related to the audio hub. You can resume the audio at any time by pressing the audio hub
+programmable key.
+
+Copyright @ALE 2020 All Right Reserved
+
+52
+
+5.2 Configure your phone for remote working
+Your IP phone is compatible with remote working (VPN) via a secure connection (encrypted). A Virtual
+Private Network (VPN) is a technology that allows a device to create a tunneling connection to a
+server and becomes part of the enterprise’s network (VPN server’s network). VPN tunnels are secured
+with OpenVPN protocol with TLS authentication, credentials and certificates.
+To establish an VPN connection, make sure you have information about connection from the hosting
+provider:
+•
+
+Connection settings: server address, port and protocol.
+
+•
+
+CA root certification file (.crt).
+
+•
+
+Client certification file (.crt).
+
+•
+
+Client key file (.key).
+
+The VPN connection must be configured, started and stopped from the Web Management device.
+•
+
+Open the Web Management device.
+When the phone is connected to the network, your administrator can access the Web
+Management via a web browser by entering the IP address of your phone. The administrator
+password of the phone is requested.
+
+•
+
+In the settings tab, select the VPN menu (OpenVPN).
+
+•
+
+Enter the required information (VPN server address, port and protocol).
+
+•
+
+Upload security files: choose a file and select the upload button for each file (CA root
+certification, Client certification, Client key file).
+
+•
+
+Enable VPN.
+
+•
+
+Apply.
+
+•
+
+The desk phone restarts.
+
+Copyright @ALE 2020 All Right Reserved
+
+53
+
+The connection will be established every time the system reboots until you disable the VPN
+manually.
+To disable the VPN:
+•
+
+Open the Web Management device.
+
+•
+
+In the settings tab, select the VPN menu (OpenVPN).
+
+•
+
+Disable the VPN.
+
+•
+
+Enable VPN.
+
+•
+
+Apply.
+
+•
+
+The desk phone restarts.
+
+5.3 Connect your phone to the Wi-Fi
+It is possible to connect your DeskPhone to the wireless network of your company or at your home,
+in case of remote worker (VPN). You have to plug a Wi-Fi dongle into the USB-A connector of your
+phone: To know the supported dongle, please refer to the Alcatel-Lucent Enterprise website or
+contact your administrator. The dongle can use 2.4Ghz and 5Ghz bands, but we recommend using
+a 5Ghz Wi-Fi network to ensure the best audio quality. The best radio signal will be automatically
+selected. A specific icon is displayed in the status bar when you are connected to a Wi-Fi access
+point:
+
+.
+
+5.3.1 Configure the wireless network
+You can manually configure your DeskPhone to connect to the selected Wi-Fi access point (SSID). This
+section is useful when you connect your phone to your personal Wi-Fi network for teleworking or
+to check the Wi-Fi configuration of the phone. Before configuring your phone, you need to know the
+name and the network security key (passphrases) of the Wi-Fi access point.
+Plug the Wi-Fi dongle into the USB-A connector of the DeskPhone.
+Start your desk phone (powered by PoE or adapter).
+The phone is in idle state.
+Menu
+Advanced Setting
+
+Wi-Fi
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Advanced Setting.
+The administrator password of the phone is requested.
+Enter the administrator password.
+Validate.
+All scanned SSIDs are listed according to signal strength (it may take a few seconds to
+display the available networks).
+Use the up-down navigation key to scroll the page.
+: this icon, displayed at left of the SSID name, represents the signal strength: the more
+waves, the better the signal. During connection establishment, this icon is displayed at
+right of the SSID name.
+: this icon indicates the current connected SSIDs.
+: this icon indicates SSIDs already saved in the phone.
+
+or Detail
+
+Display all information about the corresponding wireless network, such as the SSID,
+encryption mode, channel, signal strength.
+
+Copyright @ALE 2020 All Right Reserved
+
+54
+
+Connect
+
+Connect the phone to the selected wireless network.
+If the wireless network is not already saved, enter the network security key (passphrase)
+if requested.Use the alpha-numeric keyboard key to switch between the numeric and
+alphabetic keyboard.
+: during connection establishment, the Wi-Fi icon is displayed (1 to 4 waves).
+If the connection is successful, a pop-up is displayed on your phone.
+A specific icon is displayed in the status bar when you are connected to a Wi-Fi access
+point:
+. The SSID and authentication is automatically saved, if it has not already been
+saved.
+
+To switch back to the wired network, unplug the Wi-Fi dongle, connect the Ethernet cable and restart
+the desk phone.
+
+5.3.2 Manage wireless network
+The Wi-Fi manager allows you manage all saved wireless network configurations on your phone. If
+the wireless network is available and saved on your phone, the connection is automatic. If there are
+several networks available, the best signal will be used.
+5.3.2.1 Open the Wi-Fi manager
+The phone is in idle state.
+Menu
+Advanced Setting
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Advanced Setting.
+The administrator password of the phone is requested.
+Enter the administrator password.
+Validate.
+
+Wi-Fi  Wi-Fi Manager
+
+Use up-down and 'ok' navigation keys to select: Wi-Fi Manager.
+
+5.3.2.2 Add a new wireless network
+Open the Wi-Fi manager.
+
+Add
+
+Depending on the Wi-Fi network, enter the SSID, security mode, encryption mode and
+password of the wireless network.
+Use the alpha-numeric keyboard key to switch between the numeric and alphabetic
+keyboard.
+
+Save
+
+Save the wireless network.
+
+Copyright @ALE 2020 All Right Reserved
+
+55
+
+5.3.2.3 Modify a saved wireless network
+Open the Wi-Fi manager.
+Use up-down navigation keys to select the saved wireless network to edit.
+
+or Edit
+
+Save
+
+Depending on the Wi-Fi network, enter the SSID, security mode, encryption mode and
+password of the wireless network.
+Use the alpha-numeric keyboard key to switch between the numeric and alphabetic
+keyboard.
+Save the wireless network.
+
+5.3.2.4 Remove a saved wireless network
+Open the Wi-Fi manager.
+Use up-down navigation keys to select the saved wireless network to delete.
+Delete
+
+Delete the selected wireless network.
+
+5.4 Hot Desking
+The availability of this feature depends on your system and its configuration. Please contact your
+administrator before using these services.
+This feature allows you to use any compatible SIP DeskPhone in your company with your own
+phone number. When you activate your account on a desk phone, you retrieve your entire phone
+configuration: local directory, history (depending on the system configuration). After reboot the
+phone restarts with its initial configuration.
+We recommend activating only one phone number at a time to ensure that all incoming calls are
+received on the same phone.
+This feature has to be activated by the administrator of the phone.
+Before using this feature, you have to program a key on the home page with the following feature:
+Hot Desking.
+•
+
+Label: enter the label of the key, displayed on the home page.
+
+5.4.1 Login to hot desking
+When you start the desk sharing feature, all user configurations on the phone are cleared.
+Select the desk sharing programmed key.
+Ok
+
+Validate to ensure all current user configurations will be cleared.
+Enter the phone number and password of the SIP account.
+
+or Save
+
+Confirm.
+The desk phone is loading the Sip account configuration.
+You can use it as your own desk phone.
+
+Copyright @ALE 2020 All Right Reserved
+
+56
+
+5.4.2 Logout of hot desking
+When you want to leave the office and retrieve the initial state of the phone, you have to reboot the
+phone.
+
+5.5 Third-Party Call Control (3PCC) with Rainbow application
+This feature depends on the system configuration. If necessary, contact your
+administrator.
+Your phone is compatible with third-party call control to manage calls (basic features)
+from your computer via the Alcatel-Lucent Rainbow application:
+•
+
+Make and answer calls.
+
+•
+
+Put your contact on hold or retrieve.
+
+•
+
+Transfer a call.
+
+•
+
+Consultation and configuration of the mail box (if defined).
+
+Please consult the Rainbow support site for more information: https://support.openrainbow.com/hc/.
+
+Copyright @ALE 2020 All Right Reserved
+
+57
+
+6 Programming your telephone
+6.1 Adjusting the audio functions
+These features can be configured via the Web Management.
+
+6.1.1 Select the melody
+The phone is in idle state.
+Menu
+Basic Setting
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+
+Sound
+
+Use up-down and 'ok' navigation keys to select: Sound.
+
+Ringing
+
+Use up-down and 'ok' navigation keys to select: Ringing.
+
+Ext. Melody/Int. Melody
+
+The melody must be chosen for external and internal calls: Ext. Melody/Int. Melody
+(optional).
+Select the melody of your choice (16 tunes).
+
+or Enter
+
+Validate your choice.
+To end the settings.
+
+6.1.2 Adjusting the ringer volume
+The phone is in idle state.
+Select the volume you want (10 levels).
+
+6.1.3 Configure the ringtone
+The phone is in idle state.
+Menu
+Basic Setting
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+
+Sound
+
+Use up-down and 'ok' navigation keys to select: Sound.
+
+Ringing
+
+Use up-down and 'ok' navigation keys to select: Ringing.
+
+Ring mode
+
+Switch or
+
+Switch or
+
+or Save
+
+Use up-down and 'ok' navigation keys to select: Ring mode.
+• Normal ringing
+A normal ring signals an incoming call.
+• Progressive ringing
+A progressive ring signals an incoming call.
+Enable or disable the silent mode: Silent mode.
+The phone no longer rings. The LED flashes to signal an incoming call.
+Validate your choice.
+To end the settings.
+
+Copyright @ALE 2020 All Right Reserved
+
+58
+
+6.1.4 Configuring discreet mode (beep)
+The phone is in idle state.
+Menu
+Basic Setting
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+
+Sound
+
+Use up-down and 'ok' navigation keys to select: Sound.
+
+Ringing
+
+Use up-down and 'ok' navigation keys to select: Ringing.
+
+Beep
+
+Use up-down and 'ok' navigation keys to select: Beep.
+
+Switch or
+
+or Save
+
+• 0 Beep
+A normal ring signals an incoming call.
+• 1 Beep
+A beep followed by the ring signals an incoming call.
+• 3 Beep
+Three beeps followed by the ring signals an incoming call.
+Validate your choice.
+To end the settings.
+
+6.1.5 Seat mode
+Your desk phone supports the seat mode. The seat mode lets your administrator switch the ringing
+onto the loudspeaker, the headset or both. This feature is configurable from the Web Management.
+Contact your administrator for more information.
+
+6.2 Selecting language
+The phone is in idle state.
+Menu
+Basic Setting
+Language
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Language.
+Select the language of your choice.
+
+or Save
+
+Validate your choice.
+To end the settings.
+
+6.3 Adjusting the brightness of the desk phone
+The phone is in idle state.
+Menu
+Basic Setting
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+
+Display
+
+Use up-down and 'ok' navigation keys to select: Display.
+
+Backlight
+
+Use up-down and 'ok' navigation keys to select: Backlight.
+
+Use right-left navigation keys to adjust the brightness.
+
+Copyright @ALE 2020 All Right Reserved
+
+59
+
+Active Level
+
+Adjust the brightness when the phone is in use.
+
+Inactive Level
+
+Adjust the dimmed brightness when the phone is not in use.
+
+Backlight Time:
+
+Set the time-out duration for the phone backlight.
+Select the language of your choice.
+
+or Save
+
+Validate your choice.
+To end the settings.
+
+6.4 Enable screensaver and define the delay
+The phone is in idle state.
+Menu
+Basic Setting
+Display
+Screen saver
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Display.
+Use up-down and 'ok' navigation keys to select: Screen saver.
+
+Use right-left navigation keys to adjust the brightness.
+Screen saver
+
+Enable screensaver and define the delay (use right-left navigation keys).
+
+Wait Time
+
+Enter the idle time in seconds before the screensaver starts.
+
+or Save
+
+Validate your choice.
+To end the settings.
+
+6.5 Define the voicemail number
+The phone is in idle state.
+Menu
+Voicemail
+Set Voicemail Number
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Voicemail.
+Use up-down and 'ok' navigation keys to select: Set Voicemail Number.
+Enter the voicemail number of the corresponding account.
+
+or Save
+
+Validate your choice.
+To end the settings.
+
+6.6 Programmable keys
+Depending on the phone, you can program between 15 and 27 keys. You can connect an add-on
+module to have more programmed keys (sold separately).
+6.6.1 Create a programmable key
+
+Copyright @ALE 2020 All Right Reserved
+
+60
+
+Long press on a programmable key.
+
+Switch or
+
+or Save
+
+Define the type of programmable key.
+Depending on the type of key, fill in the options.
+Save the programmed key.
+
+6.6.2 Delete a key
+Long press on a programmed key.
+
+Switch or
+
+or Save
+
+Undefined
+Save.
+
+6.6.3 Type of programmed key
+•
+
+Undefined: delete a programmed key.
+
+•
+
+Account: line Key.
+○○ Account: select the relevant SIP account.
+
+•
+
+○○ Label: enter the label of the key, displayed on the home page.
+Speed Dial: speed dial key (direct call key).
+
+○○ Account: select the relevant SIP account.
+•
+
+○○ Label: enter the label of the key, displayed on the home page.
+
+BLF (Busy Lamp Field): indicates whether another extension connected to the same system is
+busy or not. Use the BLF key to make a direct call or pick up a call from the defined number.
+
+○○ Account: select the relevant SIP account.
+
+○○ Label: enter the label of the key, displayed on the home page.
+
+○○ Value: the number of the extension which the user wishes to monitor.
+•
+
+○○ Extension: a list of extensions which the user wishes to monitor.
+
+BLF List: a list of extensions which the user wishes to monitor. The list is defined by your
+administrator via the WBM or a configuration file.
+
+•
+•
+•
+•
+•
+•
+•
+
+○○ Label: enter the label of the key, displayed on the home page.
+Hold: place or retrieve the call on hold.
+
+○○ Label: enter the label of the key, displayed on the home page.
+Transfer: transfer function.
+
+○○ Label: enter the label of the key, displayed on the home page.
+Conference: conference call function.
+
+○○ Label: enter the label of the key, displayed on the home page.
+ReCall: redial the last incoming number.
+
+○○ Label: enter the label of the key, displayed on the home page.
+DND: do not disturb function.
+
+○○ Label: enter the label of the key, displayed on the home page.
+Directory: open the local directory.
+
+○○ Label: enter the label of the key, displayed on the home page.
+Forward: immediate forward to a number.
+
+○○ Label: enter the label of the key, displayed on the home page.
+Copyright @ALE 2020 All Right Reserved
+
+61
+
+•
+
+○○ Value: dial the destination number.
+
+Voicemail: consulting your voice mailbox.
+
+○○ Account: select the relevant SIP account.
+
+○○ Label: enter the label of the key, displayed on the home page.
+•
+•
+
+○○ Value: enter the voicemail prefix code.
+Hot Desking: desk sharing function.
+
+○○ Label: enter the label of the key, displayed on the home page.
+Prefix: open the dialpad with predefined prefix.
+
+○○ Account: select the relevant SIP account.
+
+○○ Label: enter the label of the key, displayed on the home page.
+•
+
+○○ Value: Prefix.
+
+DTMF: sending a predefined DTMF signal during conversation.
+
+○○ Label: enter the label of the key, displayed on the home page.
+•
+
+○○ Value: DTMF code.
+
+DirectPickup: call pick-up.
+
+○○ Account: select the relevant SIP account.
+
+○○ Label: enter the label of the key, displayed on the home page.
+•
+
+○○ Value: enter the pickup code followed by the extension number.
+GrpPickup: group call pick up.
+
+○○ Account: select the relevant SIP account.
+
+○○ Label: enter the label of the key, displayed on the home page.
+•
+•
+•
+
+○○ Value: enter the group pickup code followed by the group number.
+Headset: activate/Deactivate Headset mode.
+
+○○ Label: enter the label of the key, displayed on the home page.
+GroupListen: activate/deactivate group listen audio mode.
+
+○○ Label: enter the label of the key, displayed on the home page.
+
+Intercom: make a call to a contact who will answer the call automatically.
+
+○○ Account: select the relevant SIP account.
+
+○○ Label: enter the label of the key, displayed on the home page.
+•
+•
+
+○○ Value: enter the contact number to call.
+
+Audio Hub: use your desk phone as a USB audio hub for your computer.
+
+○○ Label: enter the label of the key, displayed on the home page.
+XML Browser: display an XML page.
+
+○○ Label: enter the label of the key, displayed on the home page.
+•
+
+○○ Value: enter the URL of the XML page.
+Phone Lock: lock/unlock the phone.
+
+○○ Label: enter the label of the key, displayed on the home page.
+
+These keys can be also configured by the administrator via Web Management or via the configuration
+file.
+Led behavior may differ depending on the system configuration.
+For more information, contact your installer or administrator.
+
+Copyright @ALE 2020 All Right Reserved
+
+62
+
+6.7 Call pick-up
+You hear a telephone ringing in an office where no-one can answer. If authorised, you can answer the
+call on your own telephone.
+The system can be configured to prevent call pick-up on some telephones.
+Before using this feature, you have to program a key on the home page with the following feature:
+GrpPickup, DirectPickup.
+•
+
+If the telephone ringing is in your own pick-up group:
+select the programmed key: GrpPickup.
+
+•
+
+If the telephone ringing is not in your pick-up group:
+select the programmed key: DirectPickup.
+
+6.8 Install a USB accessory (Headset, Handsfree, Loudspeaker)
+•
+
+Connect the accessory to the USB connector.
+
+•
+
+When you plug the accessory in the USB port, the USB accessory is automatically detected. If
+an another accessory is already connected with the same function (USB and jack), a popup will
+ask you to select your preferred accessory to use for this function.
+
+If you are using an external hands-free device, configure the audio for this purpose:
+The phone is in idle state.
+Menu
+Basic Setting
+Sound
+External Device
+Switch or
+
+or Save
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Sound.
+Use up-down and 'ok' navigation keys to select: External Device.
+Enable external hands-free.
+Validate your choice.
+
+If you want the headset to ring only when receiving an incoming call, you must activate the headset
+mode.
+
+6.9 Headset mode
+You can use a headset with your phone. If you want the headset to ring only when receiving an
+incoming call, you must activate the headset mode.
+Before using this feature, you have to program a key on the home page with the following feature:
+Headset.
+The phone is in idle state.
+Connect the headset to the desk phone.
+Select the programmed key: Headset.
+This icon is displayed on your desk phone:
+
+Copyright @ALE 2020 All Right Reserved
+
+.
+
+63
+
+6.10 Define time and date format
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Basic Setting
+
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+
+Time and Date
+
+Use up-down and 'ok' navigation keys to select: Time and Date.
+
+Switch or
+Switch or
+
+or Save
+
+Date: choose the date format.
+Time: select Time Format.
+Validate your choice.
+To end the settings.
+
+6.11 Manage Bluetooth® device (M7)
+This feature is only available with compatible Bluetooth® desk phone. Otherwise the corresponding
+menu is not displayed or is inactive. You can pair one Bluetooth® device, such as headphones, with
+your desk phone.
+6.11.1 Installing a Bluetooth® device
+Before performing the pairing operation, the device must be in detectable mode. Consult the user
+documentation of your Bluetooth® device.
+The phone is in idle state.
+Menu
+Basic Setting
+Bluetooth
+
+Scan
+
+Connect
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Bluetooth.
+Press the softkey under the following label: Scan.
+Scanning starts.
+Searching for Bluetooth® equipment. Wait for the detected equipment type and address to
+be displayed.
+Add the device by pressing on the associated key: Connect.
+Enter the PIN code of the device if necessary.
+
+This icon is displayed on your desk phone:
+
+.
+
+6.11.2 List connected devices
+The phone is in idle state.
+Menu
+Basic Setting
+Bluetooth
+Paired Bluetooth Device
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Bluetooth.
+Use up-down and 'ok' navigation keys to select: Paired Bluetooth Device.
+The paired devices are listed.
+
+Copyright @ALE 2020 All Right Reserved
+
+64
+
+Select a device.
+
+or MoreDetail
+
+Display information about the selected device (name, MAC address).
+
+6.11.3 Removing a Bluetooth® accessory (headset, handset, etc.)
+The phone is in idle state.
+Menu
+Basic Setting
+Bluetooth
+Paired Bluetooth Device
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Bluetooth.
+Use up-down and 'ok' navigation keys to select: Paired Bluetooth Device.
+The paired devices are listed.
+Select a device.
+
+Delete
+
+Remove the selected device.
+
+6.11.4 Removing all Bluetooth® accessories
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Basic Setting
+
+Use up-down and 'ok' navigation keys to select: Directory.
+
+Bluetooth
+
+Use up-down and 'ok' navigation keys to select: Bluetooth.
+
+Paired Bluetooth Device
+MoreDelete all
+
+Use up-down and 'ok' navigation keys to select: Paired Bluetooth Device.
+The paired devices are listed.
+Remove all devices. Note that no confirmation is requested.
+
+6.11.5 Edit the name of your desk phone
+The phone is in idle state.
+Menu
+Basic Setting
+Bluetooth
+Edit My Device Info
+
+or Save
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Bluetooth.
+Use up-down and 'ok' navigation keys to select: Edit My Device Info.
+The name and the MAC address of your desk phone is displayed. You can change the
+name.
+Validate your choice.
+
+Copyright @ALE 2020 All Right Reserved
+
+65
+
+7 Contacting your administrator (technical support)
+If necessary you may need to contact your administrator.
+Before contacting your administrator, make sure you have information such as your phone's codes
+and software version to hand.
+
+7.1 Technical code / Date code
+The codes are located under the backshell of the phone. This label is an example and does not
+represent the one placed on your phone.
+
+Technical code.
+Date code.
+
+7.2 Software version / Display network settings (IP address)
+The software version can be viewed on the phone by following this path:
+The phone is in idle state.
+Use one of the following:
+
+MenuStatus
+
+7.3 Access to administrator configuration
+7.3.1 Default password
+The default password of phone advanced setting is “000000”.
+The default user naume and WBM is “admin”, “000000”.
+When connecting for the first time, the default password has to be modified.
+7.3.2 Administrator settings menu
+The phone is in idle state.
+Menu
+
+Press the Menu soft key to access the Main Menu.
+
+Copyright @ALE 2020 All Right Reserved
+
+66
+
+Advanced Setting
+<Abc><123>
+
+Use up-down and 'ok' navigation keys to select: Advanced Setting.
+Enter the administrator password.
+This section allows the administrator to set IP parmeters, certificates, LDAP servers, DM
+URL (for configuration files), and SIP Accounts. The administrator can also restore factory
+settings. The DM URL is used to automatically download the phone's configuration file,
+including all parameters, when the phone switches on.
+
+7.3.3 Web Based Management (WBM)
+Web Management offers the administrator an easy way to configure the settings of your phone
+through a web page hosted by your phone.
+When the phone is connected to the network, your administrator can access the Web Management
+via a web browser by entering the IP address of your phone.
+
+From the Web Management, your administrator can configure all SIP accounts of the desk phone.
+
+The administrator can define the 3 dynamic keys displayed on the homepage.
+
+Copyright @ALE 2020 All Right Reserved
+
+67
+
+All configuration parameters of the desk phone can be managed from the Web Management.
+•
+
+Audio (Ringing, Tone, hearing aids…).
+
+•
+
+Backlight, Screensaver, automatic lock.
+
+•
+
+Date format, time format.
+
+•
+
+Forward, Do not disturb.
+
+•
+
+Hotline number.
+
+•
+
+Intercom.
+
+•
+
+Programmed keys displayed on the desk phone.
+
+•
+
+Network configuration (DM, DNS, Ethernet, IP parameters, LDAP).
+
+•
+
+VPN configuration.
+
+•
+
+…
+
+Copyright @ALE 2020 All Right Reserved
+
+68
+
+8 Accessories
+The ALE-supported accessories are intended to work smoothly on most/all of our clients (hardphones,
+softphones). The list of accessories presented in this document is not contractually binding and may
+be modified without prior warning.
+
+8.1 List of accessories
+8.1.1 USB headset
+You can use a USB headset to handle calls on the DeskPhone M3 / M5 / M7. To know the supported
+headsets, please refer to the Alcatel-Lucent Enterprise website or contact your administrator.
+Unlisted USB headsets may not work properly if you connect them to your phone.
+For more information on using your USB headset, refer to the corresponding documentation from the
+manufacturer.
+8.1.2 Add-on module
+•
+
+EM20 Expansion Module.
+
+•
+
+EM200 Smart Expansion Module.
+
+8.1.3 Conference module
+•
+
+EGO Personal conference module.
+
+•
+
+8135s Compact Conference Phone.
+
+8.1.4 USB WIFI Dongle
+To know the supported dongle, please refer to the Alcatel-Lucent Enterprise website or contact your
+administrator with the supported WIFI dongle.
+
+Copyright @ALE 2020 All Right Reserved
+
+69
+
+8.2 Add-on module
+
+Phone capabilities can be extended with Add-ons:
+•
+
+The EM200 add-on offers up to 200 additional keys with LED, color screen.
+
+•
+
+The EM20 add-on offers up to 200 additional keys with LED and paper label.
+
+EM200
+
+EM20
+
+LCD screen.
+
+Page navigation keys.
+
+Paper label.
+
+Connector to connect the device to the desk
+phone or already connected add-on (USB-A).
+Universal Serial Bus (USB-a) connector.
+This connector is used for:
+
+Programmable keys.
+
+Copyright @ALE 2020 All Right Reserved
+
+•
+
+Connect a USB headset.
+
+•
+
+Connect an add-on module.
+
+•
+
+Connect a Wi-Fi dongle*.
+
+70
+
+*To know the supported dongle, please refer to the Alcatel-Lucent Enterprise website or contact your
+administrator.
+8.2.1 install the add-on to the desk phone
+
+1- Insert the add-on USB-A connector into the USB-A socket of the desk phone.
+2- Use the add-on support to fix it to the desk phone using the provided screw.
+3- The add-on is powered by the desk phone if the desk phone is connected to an external
+power adapter.
+If your desk phone is powered via PoE, we recommend connecting the EM200 to an USB-C
+power adapter (DC 5V/2A output, not provided with the add-on).
+4- Restart the desk phone (unplug and plug in the power jack if you are using an external power
+adapter or the Ethernet connector – LAN).
+8.2.2 Install more than one add-on module
+It is possible to connect up to three similar add-on modules. It is not possible to connect EM20 and
+EM200 add-ons together.
+Depending on how the desk phone is powered, you need to use an external power adapter (DC 5V/2A
+output, not provided with the add-on) connected to the add-on.
+Your desk phone is powered via PoE:
+•
+
+You can connect up to one EM20 without an external power adapter.
+
+•
+
+You can connect three EM20s. One of the add-ons must be connected to an external power
+adapter.
+
+•
+
+You can not connect one EM200
+
+You can connect up to two EM200s. One of the add-ons must be connected to an external power
+adapter.Your deskphone is powered via an external power adapter:
+•
+
+You can connect up to three EM20s without an external power adapter.
+
+•
+
+You can connect up to two EM200s without an external power adapter.
+
+•
+
+You can connect three EM200s. One of the add-ons must be connected to an external power
+adapter.
+
+To attach another add-on, affix and connect the new add-on to the one that is already connected:
+•
+
+The first add-on is connected to the desk phone.
+
+•
+
+Insert the new add-on USB-A connector into the USB socket of the installed add-on.
+
+•
+
+Use the add-on support to fix it to the add-on using the screw provided.
+
+Copyright @ALE 2020 All Right Reserved
+
+71
+
+•
+
+Restart the desk phone (unplug and plug in the power jack if you are using an external power
+adapter or the Ethernet connector – LAN).
+
+8.2.3 Changing or updating the paper label
+
+•
+
+Remove the protective cover (1): insert a thin object (or your fingernail) in the slot (a) to lift
+the protective cover. Slide the cover down. The cover is held in place by small notches, take
+care not to break the plastic cover near the notches.
+Remove the cover from the other notches (c, d) by moving the cover gently from right to left.
+
+•
+
+Remove the paper label with a thin object.
+
+•
+
+Replace the paper label and protective cover (2):
+the cover or the paper can only be placed in the right way. Insert the paper label under the
+first notches (a). Then, insert the other notches by sliding the paper up (b, c, d). If necessary,
+you can gently press the paper near the notch to help it to slide under the notch.
+
+•
+
+Put the protective cover back in the same way.
+
+8.2.4 Configure Add-on keys
+EM20 and EM200’s programmble keys have the same function defined in Chapter 5.6. following the
+same process, end user can set the related type.
+
+8.3 EGO Personal conference module
+The EGO Personal conference module is a compact and portable conference module. It provides
+OmniSound® audio technology for very high-quality HD audio conversations. In addition, the EGO
+comes with a 1000m Ah Li-ion battery for up to 12 hours of meetings and calls. The EGO can be
+connected to your desk phone, mobile phone, tablet and computer. This section describes how to use
+the conference module with your desk phone. To use the EGO with your computer, mobile phone,
+or tablet, or for more information about the device, see the complete user manual of the device
+(8AL90358xxAA).
+
+Copyright @ALE 2020 All Right Reserved
+
+72
+
+8.3.1 Description
+1
+
+Color display.
+Off/on button.
+
+2
+
+3
+4
+
+•
+
+Push the button to start.
+
+•
+
+Hold down the button for five seconds to
+manually switch off.
+
+•
+
+The EGO switches off automatically after
+30 minutes.
+
+USB connector (micro type B).
+3.5 mm, 4 pole jack (TRRS standards: CTIA)
+Audio control buttons
+
+5
+
+•
+
+Activating and disactivating the mute.
+
+•
+
+Turn up the volume.
+
+•
+
+Turn down the volume.
+
+•
+
+Start/pause music.
+
+•
+
+Previous music.
+
+•
+
+Next music.
+
+Call control buttons
+6
+
+7
+8
+
+Copyright @ALE 2020 All Right Reserved
+
+•
+
+End the call.
+
+•
+
+Answer the call.
+
+Button for pairing Bluetooth®.
+lED (lEDs on all sides).
+
+73
+
+8.3.2 Icons displayed on the screen
+The icons are normally displayed for a couple of seconds on connection. The same symbol is
+displayed in red when the connection is broken.
+USB device connected.
+
+Incoming call or call in progress via Bluetooth®.
+
+Incoming call or call in progress via USB.
+
+Music mode via Bluetooth®.
+
+Music mode via USB.
+
+Headset connected.
+
+Visible for pairing via Bluetooth®.
+
+Volume adjustment (number of bars indicates
+the volume selected).
+
+Reconnecting to Bluetooth® device.
+
+Microphone switched off (mute).
+
+Bluetooth® device connected.
+
+Battery status.
+
+8.3.3 Turning off and on
+The EGO starts automatically when it is connected with the provided USB cable to the desk phone or
+powered-up computer.
+•
+
+Push the button to start the device manually.
+
+•
+
+Hold down the button for five seconds to manually switch off.
+
+8.3.4 Connect the device to the desk phone using the USB cable
+•
+
+Connect the device to the USB type A connector of the desk phone using the provided USB
+cable. The EGO automatically starts. The following icon is displayed on the screen of the
+device:
+
+•
+
+.
+
+The EGO is detected as a hands-free device. Select Ego' on the pop-up displayed on your desk
+phone.
+
+•
+
+The device is ready for use.
+
+8.3.5 Connect the device to the desk phone using Bluetooth® (compatible Bluetooth® desk phone)
+•
+•
+
+Switch on the EGO.
+Put the device in detectable mode: hold the Bluetooth® button down for two seconds on the
+EGO:
+
+•
+
+. The following icon is displayed on the screen of the device:
+
+.
+
+From your desk phone, pairing the EGO:
+The phone is in idle state.
+Menu
+Basic Setting
+Bluetooth
+
+Paired Bluetooth Device
+
+Press the Menu soft key to access the Main Menu.
+Use up-down and 'ok' navigation keys to select: Basic Setting.
+Use up-down and 'ok' navigation keys to select: Bluetooth.
+Use up-down and 'ok' navigation keys to select: Paired Bluetooth Device.
+
+Copyright @ALE 2020 All Right Reserved
+
+74
+
+Press the softkey under the following label: Scan.
+Scanning starts.
+Select the relevant equipment: “Ego”
+
+Scan
+Connect
+
+•
+
+Add the device by pressing on the associated key: Connect
+
+The EGO is successfully paired. The following icon is displayed a couple of seconds on the EGO
+screen:
+
+. It is detected as a Bluetooth® headset. The following icons are displayed on the
+
+status bar of your desk phone:
+P86_9182:
+
+,
+
+.
+
+.
+
+To remove the device, follow instructions described in the section: “Removing a Bluetooth®
+accessory (headset, handset, etc.)”.
+8.3.6 Using EGO Personal conference module
+The EGO is used as an external hands-free device.
+•
+
+When you receive a call, the device is ringing and an icon is displayed on the screen:
+
+•
+
+The leds are flashing green.
+Answer the call.
+
+•
+
+/
+
+.
+
+Activate/deactivate the mute feature during a conversation. The mute icon is displayed on
+the EGO if activated:
+
+•
+•
+
+Use the volume buttons of the desk phone or EGO to turn the volume up or down.
+End the call. You can end the call from the desk phone.
+
+You can resume the call with the handset at any time by unhooking it or by switching between
+audio mode (
+
+).
+
+Copyright @ALE 2020 All Right Reserved
+
+75
+
+8.4 Wall mounting kit
+To mount your phone on the wall, you need to install a standard wall plate that you can easily find
+on the market. Follow the manufacturer's instructions to install the wall plate on the wall. When the
+wall plate is fixed, you can prepare your phone and mount it on the wall. The wall mount kit is sold
+separately (refer to the following chapter for the reference: Ordering information).
+
+Fix the support with the phone by using the 2
+screws provided (the size of screw is M3x8mm).
+
+Copyright @ALE 2020 All Right Reserved
+
+Hang the assembled phone with wall mounted kit
+on the wall plate.
+
+76
+
+9 Technical specifications
+M7
+
+M5
+
+M3
+
+Width
+
+207 mm (8, 2 in)
+
+207 mm (8, 2 in)
+
+207 mm (8,15 in)
+
+Height
+
+183 mm (7,2 in)
+
+183 mm (7,2 in)
+
+183 mm (7,2 in)
+
+Weight
+
+810 g (1,79 lbs)
+
+800 g (1,77 lbs)
+
+806 g (1,78 lbs)
+
+2-degree adjustable foot
+
+40° - 55°
+
+40° - 55°
+
+40° - 55°
+
+Color
+
+Gray
+
+Gray
+
+Gray
+
+Display
+
+3.5 inch color, 320 x 240
+pixels
+
+2.8 inch color, 320 x 240
+pixels
+
+2.8 inch monochrome
+with backlight, 128 x 64
+pixels
+
+Memory (Flash/SDRAM)
+
+256 MB/256MB
+
+256 MB/256MB
+
+256 MB/128MB
+
+Power over Ethernet (IEEE
+802.3af)
+
+Class 2
+
+Class 2
+
+Class 2
+
+Power consumption (PoE) Idle –
+Active(w/o Add-on, w/o USB)
+
+< 3.5 W
+
+< 3.5 W
+
+< 3.5 W
+
+Operating conditions
+
+-5°C - +45°C (23°F 113°F)
+
+-5°C - +45°C (23°F 113°F)
+
+-5°C - +45°C (23°F 113°F)
+
+Copyright @ALE 2020 All Right Reserved
+
+77
+
+10 Ordering information
+M7 DeskPhone
+
+3MK27003AA
+
+M5 DeskPhone
+
+3MK27002AA
+
+M3 DeskPhone
+
+3MK27001AA
+
+EM20 Expansion Module (add-on module)
+
+3MK27006AA
+
+EM200 Smart Expansion Module (add-on module)
+
+3MK27007AA
+
+Wall mounting kit
+
+3MK27008AA
+
+USB-C Power Adapter (100–240 V AC/5 V DC) (US)
+
+3MK08005US
+
+USB-C Power Adapter (100–240 V AC/5 V DC) (EU)
+
+3MK08005EU
+
+USB-C Power Adapter (100–240 V AC/5 V DC) (RW)
+
+3MK08005RW
+
+Copyright @ALE 2020 All Right Reserved
+
+78
+
+11 Guarantee and clauses
+Current Safety and Regulatory Statements relate to the following products (do not apply to
+accessories): M3 DeskPhone, M5 DeskPhone, M7 DeskPhone.
+
+11.1 Safety Instructions
+•
+
+Changes or modifications to the equipment not expressly approved by the party responsible
+for compliance could void the user's authority to operate the equipment.
+
+•
+
+Magnets could affect the functioning of pacemakers and implanted heart defibrillators. Keep a
+safe distance between your pacemaker or implant defibrillator and the handset which includes
+magnetic elements: 4 centimeters (1,6 inches) at least.
+
+•
+
+To limit the risk of interference, people with pacemakers must keep the wireless telephone
+away from their equipment (minimum distance of 15 cm/6 inches).
+
+•
+
+It is recommended to follow the standard acceptance procedures before using this equipment
+in human safety critical areas (hospitals...).
+
+•
+
+The handset includes magnetic elements that may attract sharp metallic objects. To prevent
+injury, before each use ensure sharp metallic objects are not stuck to the earpiece and
+microphone.
+
+•
+
+Avoid using phones (other than cordless type) during an electrical storm. There may be a
+remote risk of electric shock from lightning.
+
+•
+
+Do not use this device in environments where there is a danger of explosion.
+
+•
+
+Do not plug this phone into an Integrated Services Digital Network (ISDN) connection or into
+a regular Public Switched Telephone Network (PSTN) connection. This can result in severe
+damage to the phone.
+
+•
+
+Never allow your telephone to come into contact with water.
+
+•
+
+To clean your telephone, use a soft damp cloth. Never use solvents (trichlorethylene, acetone,
+etc.) which may damage the plastic parts of your telephone. Do not use aerosol cleaners.
+
+•
+
+M3/M5/M7 DeskPhone: this product is intended to be supplied, either via the Ethernet (LAN)
+port (Minimum Class 2 according to IEEE802.3af), or via the DC-in by a Certified Direct PlugIn Power Unit approved as 'LPS' (Limited Power Source) against IEC/EN/UL/CSA 62368-1 and
+rated 5V dc, minimum 2A. Allowed power supply is: WB-10N05 – Asian Power Devices Inc.
+
+•
+
+EM200/EM20 Expansion Module: this product is intended to be powered either via the USB-A
+port from the M3/M5/M7 DeskPhone, or via the USB-C DC-IN by a Certified Direct Plug-In
+Power Unit approved as an 'LPS' (Limited Power Source) in accordance with IEC/EN/UL/CSA
+62368-1 and rated 5V DC, minimum 2A. Other power supply products from the same family
+are permitted: WB-10N05 – Asian Power Devices Inc.
+
+•
+
+If you are connected to a POE connection do not use an external Power Supply.
+
+•
+
+The PoE (Power over Ethernet) devices that supply or receive power and their connected
+cables must all be completely indoors.
+
+•
+
+The M7 DeskPhone offers a Bluetooth® radio interface for Bluetooth® devices with a frequency
+range of 2402-2480 MHz, radiated power 5 mW.
+
+Copyright @ALE 2020 All Right Reserved
+
+79
+
+11.2 Regulatory Statements
+EUROPE
+This equipment complies with the essential requirements of following directives: 2014/53/EU (RED), 2014/30/EU
+(EMC), 2014/35/EU (LVD), 2009/125/EC (ErP), 2011/65/EU (RoHS), 2015/863 (EU).
+Declaration of Conformity may be obtained from: ALE International 32 avenue Kléber – 92700 Colombes, France ebg_global_supportcenter@al-enterprise.com
+
+USA and Canada
+Phones with Bluetooth® comply with Industry Canada’s license-exempt RSSs. Operation is subject to the following
+two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference
+received, including interference that may cause undesired operation.
+Phone has been tested without Bluetooth® and was found to comply with the limits for a class B digital device,
+pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful
+interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and,
+if not installed and used in accordance wit the instructions, may cause harmful interference to radio communications.
+However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause
+harmful interference to radio or television reception, which can be determined by turning the equipment off and on,
+the user is encouraged to try correcting the interference by consulting the dealer.
+This product meets the applicable Industry Canada technical specifications and the applicable Innovation, Science and
+Economic Development Canada technical specifications.
+
+Exposure to Radio Frequency Signals
+This equipement complies with radiation exposure limits set by FCC/IC and the Council of European Union for an
+uncontrolled environment. This equipment has very low levels of RF energy and is deemed to be compliant without
+testing of the specific absorption rate (SAR).
+
+User Instructions
+Use this product in temperatures between -5°C to +45°C (23°F to 113°F).
+This product is intended for use in an indoor environment only. This apparatus is Hearing Aid Compatible (HAC).
+
+Acoustic shock protection
+Maximum sound pressure level for handset is compliant with European, US and Australian standards.
+Directive 2003/10/EC specifying the risks inherent in noise at work
+The ring contributes towards overall daily noise - at its maximum setting, the level is 105 dBA at 60 cm from terminal.
+To reduce the level, the following is recommended:- reduce the setting (9 levels of 5 dB) - program a progressive ring.
+
+Privacy
+Privacy of communications may not be ensured when using any Bluetooth® device.
+
+Disposal
+The equipment must be returned to a collection point for electronic equipment waste disposal.
+
+Related Documentation
+Other languages for these Safety and Regulatory Instructions and User Documentation are available at the following
+
+Web site: www.aledevice.com
+
+The Alcatel-Lucent name and logo are trademarks of Nokia used under license by ALE. To view other trademarks used by affiliated companies of ALE Holding, visit: www.alenterprise.com/en/legal/
+trademarks-copyright. All other trademarks are the property of their respective owners. The information presented is subject to change without notice. Neither ALE Holding nor any of its affiliates
+assumes any responsibility for inaccuracies contained herein.
+© Copyright 2020 ALE International, ALE USA Inc. All rights reserved in all countries.
+
+Copyright @ALE 2020 All Right Reserved
+
+80
+
+Quick guide
+
+Call management screen
+
+Main screen
+
+Menu to access features and configure the phone or manage calls.
+Press the menu softkeys under the screen to access features. Use the updown
+navigation keys to navigate through the menus and to select an entry or an
+option.
+3 dynamic keys configurable by your administrator to access features of the
+phone.
+Line keys associated with SIP account (optional).
+Press the line key associated with a SIP account to make a call with this account
+or to answer an incoming call to this account.
+The 'headset' programmed key allows you to switch to headset mode.
+Programmed keys.
+Press the programmed key to use the programmed function or contact.
+Long press the programmed key to enter into the key configuration.
+Access to 4 pages.
+Use the right-left navigation keys or the '1234’ programmed key to navigate
+between pages. The number of the displayed page is highlighted.
+
+Softkeys: actions available depending on the call status (when presentation
+screen is not displayed). Press the softkey under the label to select the
+corresponding feature.
+SIP account in conversation.
+Incoming call and conversation presentation screen.
+Features keys
+Take the call key
+Redialing the last number dialed (long press).
+List of last numbers dialed (short press).
+Placing a call on hold.
+Recover the call on hold.
+Transfer a call.
+
+M7 / M5 / M3 DeskPhone
+
+Date, time and status bar.
+OK key: use this key to validate your choices and options while programming or
+configuring (short press).
+left-right navigator: use to move from one page to another or to move the
+cursor in a text box.
+up-down navigator: use to select an item on a list.
+Back/Exit key: use this key to go back to the previous step.
+Bkspc
+
+Use this key to delete one number or character at a time.
+
+More
+
+Open other functions.
+
+Starting a conference call with two contacts.
+Switch off ringer.
+Hang up.
+Return to the main page.
+Mute key
+During a call, press this key to stop your contact from hearing you. When
+activated, the key is lit red.
+Access the voice mail
+The message key flashes red when you have received a new voicemail or a
+missed an incoming call.
+
+81
+Related Documentation - Other languages for these Safety and Regulatory Instructions and User Documentation are available at the following Web site: https://www.alenterprise.com/
+products. 8AL90382ENAAed02 - The Alcatel-Lucent name and logo are trademarks of Nokia used under license by ALE. ALE International copyright © 2020
+
+Press this key to open dialer in hands-free mode (idle state).
+
+%  $  /  ~  &  (  )  [  ]  =  *
+
+Pressing this key answers an incoming call in hands-free mode (idle state). When a
+call is in progress, pressing this key switches from hands-free mode to headset or
+handset mode. When activated, the key is lit blue.
+
+@  #
+
+Hang up in hands-free mode if the headset mode is not activated.
+
+space  -  _  1
+
+Decrease the volume of the ring tone (9 steps) in idle state or when you receive
+an incoming call. Decrease the volume of the handset, loudspeaker or headset
+(7 steps) during a conversation.
+
++  .  ,  ;  :  \  ?  !  0
+
+Increase the volume of the ring tone (9 steps) in idle state or when you receive
+an incoming call. Increase the volume of the handset, loudspeaker or headset
+(7 steps) during a conversation.
+Call icons
+Icons giving information about some specific configurations of the phone or about call status are
+displayed in the top bar of the screen. Icons depend on the theme (skin) of the phone.
+SIP account (idle state). A grayed or crossed icon means that the SIP account is
+not registered (Please contact your administrator).
+Line keys.
+Incoming call icon.
+Call in progress icon.
+Call on hold icon.
+
+Alpha-numeric keyboard
+Your phone is equipped with alphanumeric keyboard.
+abc
+
+When you are in a text zone, you can switch to the alphabetic keyboard by
+selecting this key.
+
+123
+
+When alphabetic keyboard is activated, select this key to switch to the numeric
+keyboard.
+
+Enter alphabetic characters.
+The number pad keys have letters that you can display by successive presses. The number
+is the last character in the series. Some special characters can be displayed by successively
+pressing the key:
+
+Copyright @ALE 2020 All Right Reserved
+
+82
+
+Alpha-numeric keyboard
+Directory
+
+Making a call
+Select the SIP account to use to make the call. A dial area and the list of last
+
+Select this softkey to open contacts management.
+
+number dialed are displayed.
+
+Add
+
+Create a new contact.
+
+Delete
+
+Delete the selected contact.
+
+More
+
+Access more features.
+
+Call
+
+Call the selected contact.
+
+abc
+
+Detail
+
+Open the contact card.
+
+History
+
+Call from call log.
+
+Delete all
+
+Delete all contacts in the local directory.
+
+Contacts
+
+Calling using your personal directory.
+
+AddGrp
+
+Add a new group.
+
+Enter
+
+List all contacts in the selected group.
+
+Press the 'take the call' key. Make the call with the active device: handset if
+
+Back
+
+Return to the main page.
+
+unhooked, headset if connected, otherwise in hands-free mode.
+
+Dial the number.
+
+Use one of the following:
+
+Press the OK key to start the call. Make the call with the active device:
+
+Contact card
+Directory
+Detail
+Back
+
+handset if unhooked, headset if connected, otherwise in hands-free mode.
+
+Select this softkey to open contacts management.
+Open the contact card.
+
+Call
+
+Modify a contact.
+Return to the main page.
+
+# or *
+
+Manage the call log(history)
+History
+
+Access the call log.
+
+Delete
+
+Delete the selected entry. Note that no confirmation is requested.
+
+Call
+
+Call the selected contact.
+
+More
+
+Access more features.
+
+or Detail
+Delete all
+Missed
+AddClist
+Back
+
+Calling by name.
+
+Press the call key to start the call. Make the call with the active device:
+handset if unhooked, headset if connected, otherwise in hands-free mode.
+If defined in the phone settings, you can use these keys to initiate the call
+(Menu  Features  Key As Send).
+
+Open information about the contact: name, number, time, relevant SIP
+account, duration.
+Delete the entire log associated with the selected contact. Note that no
+confirmation is requested.
+Display missed calls only.
+
+Receiving a call
+
+Add the contact in your local directory. If the contact already exists, the
+contact card is edited.
+
+Lift the handset to take the call.
+
+Return to the main page.
+Use the headset to take the call. If your headset has no Off-hook/On-hook
+key, use the phone keys and switch on the audio on the headset (
+
+Copyright @ALE 2020 All Right Reserved
+
+).
+
+83
+
+Press the loudspeaker/hands-free key to take the call in hands-free mode.
+
+Take call or
+
+Basic Setting
+ Language
+
+Press the blinking line key associated with the SIP account receiving the
+
+Basic Setting
+
+call.
+
+ Display
+
+Take the call with the headset if connected, or in hands-free mode.
+
+Status
+Features
+
+or Reject
+
+Deflect the call to your voicemail.
+Voicemail
+
+call
+Deflect
+
+Deflect the call to another contact:
+
+During conversation
+End
+
+End the call.
+
+Hold
+
+Placing a call on hold.
+
+Transfer
+
+Transfer a call.
+
+Retrieve
+
+Retrieve a call (on hold, parked).
+
+New
+
+Making a second call during a conversation.
+
+Swap
+
+Switching between calls.
+
+Conf
+
+Establishing a three-party conference call.
+
+End conf
+
+End the conference with all participants
+
+Basic Setting
+ Bluetooth
+
+Selecting language.
+Adjust the brightness when the phone is in use.
+Adjust the dimmed brightness when the phone is not in use.
+Set the delay before the screensaver starts.
+Display IP and MAC addresses and software version.
+Access phone features: Call Forward, DND, Auto Answer, Programmable key,
+Anonymous, Key As Send, Hotline, Default Account, Intercom.
+Define voicemail number.
+Access to registered SIP account voicemail.
+Manage Bluetooth® device (M7).
+
+Mute/unmute the selected participant.
+Settings
+Menu
+Basic Setting
+ Sound ->
+Ringing
+
+Press the softkey settings.
+Select the melody.
+Adjusting the ringer volume.
+Configure the ringtone.
+Configuring discreet mode (beep).
+
+Basic Setting
+ Sound ->
+
+To activate or deactivate DTMF mode.
+
+DTMF Tone
+Adjusting the ringer volume.
+
+Copyright @ALE 2020 All Right Reserved
+
+84
+
+
