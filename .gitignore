@@ -7,8 +7,8 @@ main
 Untitled.ipynb
 /home/biniyam_ajaw/finetuning/data
 /cleaned/
-/amharic_tokenizer
-/amharic-llama
+/cleaned
+/raw/*
 
 # Logs
 /front-end/logs
