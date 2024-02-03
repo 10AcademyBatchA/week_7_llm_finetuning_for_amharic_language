@@ -1,9 +1,14 @@
 main
 .env
+/cleaned/
+/amharic_tokenizer/
+/amharic-llama/
+/data/
+Untitled.ipynb
+/home/biniyam_ajaw/finetuning/data
+/cleaned/
 /cleaned
 /raw/*
-/amharic_tokenizer
-/amharic-llama
 
 # Logs
 /front-end/logs
@@ -36,5 +41,3 @@ main
 
 /backend/notebooks/*.model
 /backend/notebooks/*.vocab
-
-feature/model_exploration
