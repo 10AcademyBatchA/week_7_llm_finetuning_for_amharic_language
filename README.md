@@ -19,6 +19,26 @@ Success ensures ads are catchy and relevant to the Telegram community. To achiev
 | LLaMA 2 | 7B |
 | Mistral  | 7B |
 
+## Tokenizer
+
+A tokenizer with 100k vocabulairies that was trained by bpe (Byte-pair-encoding)
+Trained a custom tokenizer for the language that is currently available for inference on huggingface on the following link
+
+   `https://huggingface.co/BiniyamAjaw/amharic_tokenizer/blob/main/README.md`
+
+## Dataset
+
+Dataset that was gathered from public telegram channels that are in the following categories
+
+- News
+- Sports
+- Literature
+- E-comerece
+
+Data preparation and preprocessing pipeline was created in order to create a huge corpus of data
+The data is available on huggingface on the following link
+   `https://huggingface.co/datasets/BiniyamAjaw/amharic_dataset_v2`
+
 
 ## Project Overview
 
